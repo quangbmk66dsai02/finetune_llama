@@ -64,3 +64,30 @@ def formatting_prompt(examples):
 
 training_data = Dataset.from_pandas(filtered_data)
 training_data = training_data.map(formatting_prompt, batched=True)
+
+trainer=SFTTrainer(
+    model=model,
+    tokenizer=tokenizer,
+    train_dataset=training_data,
+    dataset_text_field="text",
+    max_seq_length=max_seq_length,
+    dataset_num_proc=2,
+    packing=True,
+    args=TrainingArguments(
+        learning_rate=3e-4,
+        lr_scheduler_type="linear",
+        per_device_train_batch_size=16,
+        gradient_accumulation_steps=8,
+        num_train_epochs=40,
+        fp16=not is_bfloat16_supported(),
+        bf16=is_bfloat16_supported(),
+        logging_steps=1,
+        optim="adamw_8bit",
+        weight_decay=0.01,
+        warmup_steps=10,
+        output_dir="output",
+        seed=0,
+    ),
+)
+
+trainer.train()
