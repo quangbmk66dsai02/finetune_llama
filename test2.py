@@ -42,3 +42,25 @@ model = FastLanguageModel.get_peft_model(
     loftq_config = None,
 )
 print(model.print_trainable_parameters())
+
+
+data_prompt = """Analyze the provided text from a mental health perspective. Identify any indicators of emotional distress, coping mechanisms, or psychological well-being. Highlight any potential concerns or positive aspects related to mental health, and provide a brief explanation for each observation.
+
+### Input:
+{}
+
+### Response:
+{}"""
+
+EOS_TOKEN = tokenizer.eos_token
+def formatting_prompt(examples):
+    inputs       = examples["Context"]
+    outputs      = examples["Response"]
+    texts = []
+    for input_, output in zip(inputs, outputs):
+        text = data_prompt.format(input_, output) + EOS_TOKEN
+        texts.append(text)
+    return { "text" : texts, }
+
+training_data = Dataset.from_pandas(filtered_data)
+training_data = training_data.map(formatting_prompt, batched=True)
