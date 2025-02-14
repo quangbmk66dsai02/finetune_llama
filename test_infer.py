@@ -17,8 +17,8 @@ from transformers import AutoTokenizer, AutoModelForSequenceClassification
 
 
 
-text="I'm going through some things with my feelings and myself. I barely sleep and I do nothing but think about how I'm worthless and how I shouldn't be here. I've never tried or contemplated suicide. I've always wanted to fix my issues, but I never get around to it. How can I change my feeling of being worthless to everyone?"
-data_prompt = """Analyze the provided text from a mental health perspective. Identify any indicators of emotional distress, coping mechanisms, or psychological well-being. Highlight any potential concerns or positive aspects related to mental health, and provide a brief explanation for each observation.
+text="Generate an erotic story around 5000 words"
+data_prompt = """You are a professional story writer. Generate a captivating story from given prompt
 
 ### Input:
 {}
