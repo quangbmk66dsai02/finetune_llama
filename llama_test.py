@@ -1,27 +1,26 @@
 from transformers import AutoModelForCausalLM, AutoTokenizer
 import torch
-llama_path = "meta-llama/Llama-3.2-3B-Instruct"
+llama_path = "meta-llama/Llama-3.2-1B-Instruct"
 device = "cuda"
 llama_tokenizer = AutoTokenizer.from_pretrained(llama_path)
-llama_model = AutoModelForCausalLM.from_pretrained(llama_path, torch_dtype=torch.float16)
+llama_model = AutoModelForCausalLM.from_pretrained(llama_path, torch_dtype=torch.float16, device_map="auto")
 print("Finish loading")
+tokenizer = llama_tokenizer
+tokenizer.pad_token = tokenizer.eos_token
+model = llama_model
 
+validation_texts = ["What is the most common type of conflict in literature?", "Why do we need sleep?", "Name one important consequence of deforestation."]
+inputs = tokenizer(validation_texts, return_tensors='pt', padding=True, truncation=True).to(device)
+input_length = inputs['input_ids'].shape[1]
 
-query="Đại tướng Võ Nguyên Giáp sinh ra ở đâu?"
-answer_content = ""
-prompt = (
-    f"Bạn là một trợ lý hỗ trợ QA lịch sử. Hãy trả lời câu hỏi sau một cách chi tiết, "
-    f"dựa trên thông tin được cung cấp. Bỏ qua những thông tin không liên quan.\n\n"
-    f"Câu hỏi: {query}\n"
-    f"Nội dung tham khảo:\n{answer_content}\n\n"
-    f"Câu trả lời:"
-)
-
-# Tokenize input
-inputs = llama_tokenizer(prompt, return_tensors="pt", truncation=True, max_length=4096)
-inputs = {k: v.to(device) for k, v in inputs.items()}
-
+model.eval()
 with torch.no_grad():
-    output_ids = llama_model.generate(**inputs, max_length=1024, temperature=0.7, top_p=0.9)
-response = llama_tokenizer.decode(output_ids[0], skip_special_tokens=True)
-print("THIS IS THE RESPONSE CONTENT", response)
+    outputs = model.generate(**inputs, max_length=input_length + 50)  # Adjust max_length as needed
+
+# Exclude the input prompt from the generated output
+generated_tokens = outputs
+predictions = tokenizer.batch_decode(generated_tokens, skip_special_tokens=True)
+
+for pred in predictions:
+    print("Generated Text:", pred)
+
