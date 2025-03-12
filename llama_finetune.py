@@ -4,6 +4,7 @@ from transformers import AutoTokenizer, AutoModelForCausalLM, TrainingArguments,
 from transformers import TrainerCallback
 from peft import get_peft_model, LoraConfig, TaskType
 import torch
+import time  # Import the time module to track training duration
 
 
 class GenerateTextCallback(TrainerCallback):
@@ -108,8 +109,14 @@ trainer = Trainer(
     callbacks=[generate_text_callback]  # Add the callback here
 )
 
+start_time = time.time()
+
 # Start the training process
 trainer.train()
+
+end_time = time.time()
+total_training_time = end_time - start_time
+print(f"Total training time: {total_training_time:.2f} seconds")
 
 # Save the fine-tuned model and tokenizer
 model.save_pretrained('./fine_tuned_llama3_2_1b_instruct')
