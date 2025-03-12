@@ -2,12 +2,12 @@ import torch
 from transformers import AutoTokenizer, AutoModelForCausalLM
 from peft import PeftModel
 
-base_model_name = 'meta-llama/Llama-3.2-1B-Instruct'
+base_model_name = 'meta-llama/Llama-3.2-3B-Instruct'
 tokenizer = AutoTokenizer.from_pretrained(base_model_name)
 model = AutoModelForCausalLM.from_pretrained(base_model_name, torch_dtype=torch.float16)
 tokenizer.pad_token = tokenizer.eos_token
 
-lora_model_path = './fine_tuned_llama3_2_1b_instruct'
+lora_model_path = './fine_tuned_llama3_2_3b_instruct'
 model = PeftModel.from_pretrained(model, lora_model_path)
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')

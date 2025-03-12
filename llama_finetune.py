@@ -38,7 +38,7 @@ class GenerateTextCallback(TrainerCallback):
 dataset = load_dataset('json', data_files='alpaca_subset.json')
 
 # Initialize the tokenizer
-tokenizer = AutoTokenizer.from_pretrained('meta-llama/Llama-3.2-1B-Instruct')
+tokenizer = AutoTokenizer.from_pretrained('meta-llama/Llama-3.2-3B-Instruct')
 tokenizer.pad_token = tokenizer.eos_token
 
 # Display a sample from the dataset
@@ -66,7 +66,7 @@ tokenized_dataset = dataset.map(tokenize_function, batched=True)
 
 # Load the pre-trained model
 device = "cuda" if torch.cuda.is_available() else "cpu"
-model = AutoModelForCausalLM.from_pretrained('meta-llama/Llama-3.2-1B-Instruct', torch_dtype=torch.float16)
+model = AutoModelForCausalLM.from_pretrained('meta-llama/Llama-3.2-3B-Instruct', torch_dtype=torch.float16)
 
 
 # Configure LoRA
@@ -119,5 +119,5 @@ total_training_time = end_time - start_time
 print(f"Total training time: {total_training_time:.2f} seconds")
 
 # Save the fine-tuned model and tokenizer
-model.save_pretrained('./fine_tuned_llama3_2_1b_instruct')
-tokenizer.save_pretrained('./fine_tuned_llama3_2_1b_instruct')
+model.save_pretrained('./fine_tuned_llama3_2_3b_instruct')
+tokenizer.save_pretrained('./fine_tuned_llama3_2_3b_instruct')

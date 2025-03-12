@@ -1,6 +1,6 @@
 from transformers import AutoModelForCausalLM, AutoTokenizer
 import torch
-llama_path = "meta-llama/Llama-3.2-1B-Instruct"
+llama_path = "meta-llama/Llama-3.2-3B-Instruct"
 device = "cuda"
 llama_tokenizer = AutoTokenizer.from_pretrained(llama_path)
 llama_model = AutoModelForCausalLM.from_pretrained(llama_path, torch_dtype=torch.float16, device_map="auto")
