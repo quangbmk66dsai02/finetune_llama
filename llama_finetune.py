@@ -73,7 +73,7 @@ model = AutoModelForCausalLM.from_pretrained('meta-llama/Llama-3.2-3B-Instruct',
 lora_config = LoraConfig(
     task_type=TaskType.CAUSAL_LM,   # Set the task type
     inference_mode=False,           # Enable training mode
-    r=8,                            # Rank of the decomposition
+    r=16,                            # Rank of the decomposition
     lora_alpha=32,                  # Scaling factor
     lora_dropout=0.1                # Dropout rate
 )
