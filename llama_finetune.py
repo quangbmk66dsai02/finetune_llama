@@ -77,11 +77,11 @@ lora_config = LoraConfig(
     lora_alpha=32,                  # Scaling factor
     lora_dropout=0.1                # Dropout rate
 )
-input("finished before lora")
+# input("finished before lora")
 # Apply the LoRA configuration to the model
 model = get_peft_model(model, lora_config)
 model.to(device)
-input("finished after lora")
+# input("finished after lora")
 # Set up training arguments
 training_args = TrainingArguments(
     output_dir='./results',
