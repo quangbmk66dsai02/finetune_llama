@@ -35,14 +35,15 @@ class GenerateTextCallback(TrainerCallback):
 
 
 # Load the dataset
-dataset = load_dataset('json', data_files='sample.json')
-
+dataset = load_dataset('json', data_files='vi-alpaca.json')
+filtered_dataset = dataset.filter(lambda example: len(example['output']) <= 500)
+print(filtered_dataset)
 # Initialize the tokenizer
 tokenizer = AutoTokenizer.from_pretrained('meta-llama/Llama-3.2-3B-Instruct')
 tokenizer.pad_token = tokenizer.eos_token
 
 # Display a sample from the dataset
-print(dataset['train'][0])
+print(filtered_dataset['train'][0])
 
 # Define the tokenization function
 def tokenize_function(examples):
@@ -62,8 +63,8 @@ def tokenize_function(examples):
 
 
 # Tokenize the dataset
-tokenized_dataset = dataset.map(tokenize_function, batched=True)
-
+tokenized_dataset = filtered_dataset.map(tokenize_function, batched=True)
+# input("FINISHED DATA LOADING")
 # Load the pre-trained model
 device = "cuda" if torch.cuda.is_available() else "cpu"
 model = AutoModelForCausalLM.from_pretrained('meta-llama/Llama-3.2-3B-Instruct', torch_dtype=torch.float16)
@@ -98,7 +99,7 @@ training_args = TrainingArguments(
     save_total_limit=2,
     fp16=True,  # Enable mixed precision training
 )
-generate_text_callback = GenerateTextCallback(tokenizer, dataset['train'], device, n_steps=100)
+generate_text_callback = GenerateTextCallback(tokenizer, filtered_dataset['train'], device, n_steps=100)
 
 # Initialize the Trainer
 trainer = Trainer(
