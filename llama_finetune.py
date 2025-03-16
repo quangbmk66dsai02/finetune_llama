@@ -35,7 +35,7 @@ class GenerateTextCallback(TrainerCallback):
 
 
 # Load the dataset
-dataset = load_dataset('json', data_files='alpaca_subset.json')
+dataset = load_dataset('json', data_files='sample.json')
 
 # Initialize the tokenizer
 tokenizer = AutoTokenizer.from_pretrained('meta-llama/Llama-3.2-3B-Instruct')
@@ -81,7 +81,7 @@ lora_config = LoraConfig(
 # Apply the LoRA configuration to the model
 model = get_peft_model(model, lora_config)
 model.to(device)
-# input("finished after lora")
+input("finished after lora")
 # Set up training arguments
 training_args = TrainingArguments(
     output_dir='./results',
@@ -98,7 +98,7 @@ training_args = TrainingArguments(
     save_total_limit=2,
     fp16=True,  # Enable mixed precision training
 )
-generate_text_callback = GenerateTextCallback(tokenizer, dataset['train'], device, n_steps=50)
+generate_text_callback = GenerateTextCallback(tokenizer, dataset['train'], device, n_steps=100)
 
 # Initialize the Trainer
 trainer = Trainer(
@@ -119,5 +119,4 @@ total_training_time = end_time - start_time
 print(f"Total training time: {total_training_time:.2f} seconds")
 
 # Save the fine-tuned model and tokenizer
-model.save_pretrained('./fine_tuned_llama3_2_3b_instruct')
-tokenizer.save_pretrained('./fine_tuned_llama3_2_3b_instruct')
+model.save_pretrained('./lora_adapter')
