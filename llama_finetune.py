@@ -35,8 +35,8 @@ class GenerateTextCallback(TrainerCallback):
 
 
 # Load the dataset
-dataset = load_dataset('json', data_files='sample.json')
-filtered_dataset = dataset.filter(lambda example: len(example['output']) <= 500)
+dataset = load_dataset('json', data_files='vi-alpaca.json')
+filtered_dataset = dataset.filter(lambda example: len(example['output']) <= 1024)
 print(filtered_dataset)
 # Initialize the tokenizer
 tokenizer = AutoTokenizer.from_pretrained('meta-llama/Llama-3.2-3B-Instruct')
@@ -61,7 +61,7 @@ def tokenize_function(examples):
         inputs,
         padding='max_length',
         truncation=True,
-        max_length=3072,
+        max_length=1536,
         return_tensors='pt'
     )
     # Set labels to be the same as input_ids
