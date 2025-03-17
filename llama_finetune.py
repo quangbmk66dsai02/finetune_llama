@@ -35,7 +35,7 @@ class GenerateTextCallback(TrainerCallback):
 
 
 # Load the dataset
-dataset = load_dataset('json', data_files='vi-alpaca.json')
+dataset = load_dataset('json', data_files='sample.json')
 filtered_dataset = dataset.filter(lambda example: len(example['output']) <= 500)
 print(filtered_dataset)
 # Initialize the tokenizer
@@ -47,14 +47,21 @@ print(filtered_dataset['train'][0])
 
 # Define the tokenization function
 def tokenize_function(examples):
-    # Combine instruction and output for input sequence
-    inputs = [f"{instruction} {output}" for instruction, output in zip(examples['instruction'], examples['output'])]
+    inputs = []
+    for instruction, input_text, output in zip(examples['instruction'], examples['input'], examples['output']):
+        if input_text.strip():  # Check if 'input' is non-empty
+            # Format with input
+            inputs.append(f"Instruction: {instruction}\nInput: {input_text}\nOutput: {output}")
+        else:
+            # Format without input
+            inputs.append(f"Instruction: {instruction}\nOutput: {output}")
+    
     # Tokenize inputs
     model_inputs = tokenizer(
         inputs,
         padding='max_length',
         truncation=True,
-        max_length=512,
+        max_length=3072,
         return_tensors='pt'
     )
     # Set labels to be the same as input_ids
@@ -64,6 +71,9 @@ def tokenize_function(examples):
 
 # Tokenize the dataset
 tokenized_dataset = filtered_dataset.map(tokenize_function, batched=True)
+# while True:
+#     tmp = int(input())
+#     print("THIS IS A SAMPLE FROM TRAINED DATA", tokenized_dataset['train'][tmp])
 # input("FINISHED DATA LOADING")
 # Load the pre-trained model
 device = "cuda" if torch.cuda.is_available() else "cpu"
@@ -88,7 +98,7 @@ training_args = TrainingArguments(
     output_dir='./results',
     per_device_train_batch_size=2,
     per_device_eval_batch_size=2,
-    num_train_epochs=50,
+    num_train_epochs=3,
     learning_rate=5e-5,
     weight_decay=0.01,
     logging_dir='./logs',
