@@ -36,7 +36,7 @@ class GenerateTextCallback(TrainerCallback):
 
 # Load the dataset
 dataset = load_dataset('json', data_files='vi-alpaca.json')
-filtered_dataset = dataset.filter(lambda example: len(example['output']) <= 1024)
+filtered_dataset = dataset.filter(lambda example: len(example['output']) <= 512)
 print(filtered_dataset)
 # Initialize the tokenizer
 tokenizer = AutoTokenizer.from_pretrained('meta-llama/Llama-3.2-3B-Instruct')
@@ -105,11 +105,11 @@ training_args = TrainingArguments(
     logging_steps=10,
     save_steps=500,
     evaluation_strategy='steps',
-    eval_steps=500,
+    eval_steps=2000000,
     save_total_limit=2,
     fp16=True,  # Enable mixed precision training
 )
-generate_text_callback = GenerateTextCallback(tokenizer, filtered_dataset['train'], device, n_steps=100)
+generate_text_callback = GenerateTextCallback(tokenizer, filtered_dataset['train'], device, n_steps=1000)
 
 # Initialize the Trainer
 trainer = Trainer(
