@@ -2,7 +2,8 @@ import json
 from datasets import load_dataset
 from transformers import AutoTokenizer, AutoModelForCausalLM, TrainingArguments, Trainer
 from transformers import TrainerCallback
-from peft import get_peft_model, LoraConfig, TaskType
+from peft import get_peft_model, LoraConfig, TaskType, PeftModel
+
 import torch
 import time  # Import the time module to track training duration
 
@@ -75,32 +76,31 @@ tokenized_new_dataset = filtered_new_dataset.map(tokenize_function, batched=True
 
 # Load the already fine-tuned model
 device = "cuda" if torch.cuda.is_available() else "cpu"
-lora_config = LoraConfig(
-    task_type=TaskType.CAUSAL_LM,   # Set the task type
-    inference_mode=False,           # Enable training mode
-    r=16,                            # Rank of the decomposition
-    lora_alpha=32,                  # Scaling factor
-    lora_dropout=0.1                # Dropout rate
-)
-model = AutoModelForCausalLM.from_pretrained('lora-adapter', torch_dtype=torch.float16, local_files_only=True)
+# lora_config = LoraConfig(
+#     task_type=TaskType.CAUSAL_LM,   # Set the task type
+#     inference_mode=False,           # Enable training mode
+#     r=16,                            # Rank of the decomposition
+#     lora_alpha=32,                  # Scaling factor
+#     lora_dropout=0.1                # Dropout rate
+# )
+base_model = AutoModelForCausalLM.from_pretrained('meta-llama/Llama-3.2-3B-Instruct', torch_dtype=torch.float16)
+print("FINISHED LOADING BASE MODEL")
+model = PeftModel.from_pretrained(base_model, 'lora-adapter', is_trainable=True).to(device)
+print("FINISHED LOADING LORA MODEL")
 
 # Apply the LoRA configuration again (if needed)
-model = get_peft_model(model, lora_config)
 model.to(device)
 
 generate_text_callback = GenerateTextCallback(tokenizer, filtered_new_dataset['train'], device, n_steps=10000)
 training_args = TrainingArguments(
     output_dir='./results',
-    per_device_train_batch_size=2,
-    per_device_eval_batch_size=2,
+    per_device_train_batch_size=4,
     num_train_epochs=3,
     learning_rate=5e-5,
     weight_decay=0.01,
     logging_dir='./logs',
     logging_steps=10,
     save_steps=500,
-    evaluation_strategy='steps',
-    eval_steps=2000000,
     save_total_limit=2,
     fp16=True,  # Enable mixed precision training
 )
