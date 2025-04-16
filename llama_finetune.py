@@ -71,11 +71,7 @@ def tokenize_function(examples):
 
 # Tokenize the dataset
 tokenized_dataset = filtered_dataset.map(tokenize_function, batched=True)
-# while True:
-#     tmp = int(input())
-#     print("THIS IS A SAMPLE FROM TRAINED DATA", tokenized_dataset['train'][tmp])
-# input("FINISHED DATA LOADING")
-# Load the pre-trained model
+
 device = "cuda" if torch.cuda.is_available() else "cpu"
 model = AutoModelForCausalLM.from_pretrained('meta-llama/Llama-3.2-3B-Instruct', torch_dtype=torch.float16)
 
