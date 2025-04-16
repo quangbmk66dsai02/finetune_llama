@@ -38,8 +38,6 @@ class GenerateTextCallback(TrainerCallback):
 tokenizer = AutoTokenizer.from_pretrained('meta-llama/Llama-3.2-3B-Instruct')
 tokenizer.pad_token = tokenizer.eos_token
 
-# Display a sample from the dataset
-print(filtered_dataset['train'][0])
 
 # Define the tokenization function
 def tokenize_function(examples):
@@ -67,9 +65,10 @@ def tokenize_function(examples):
 
 # Load the new dataset
 
-new_dataset = load_dataset('json', data_files='combined-5k.json')
-filtered_new_dataset = new_dataset.filter(lambda example: len(example['output']) <= 512)
+new_dataset = load_dataset('json', data_files='data/combined-5k-line.jsonl')
+filtered_new_dataset = new_dataset.filter(lambda example: len(example['output']) <= 2000)  #Take all
 print(filtered_new_dataset)
+print(filtered_new_dataset['train'][0])
 
 # Tokenize the new dataset
 tokenized_new_dataset = filtered_new_dataset.map(tokenize_function, batched=True)
@@ -89,7 +88,7 @@ model = AutoModelForCausalLM.from_pretrained('./lora_adapter', torch_dtype=torch
 model = get_peft_model(model, lora_config)
 model.to(device)
 
-generate_text_callback = GenerateTextCallback(tokenizer, filtered_new_dataset['train'], device, n_steps=1000)
+generate_text_callback = GenerateTextCallback(tokenizer, filtered_new_dataset['train'], device, n_steps=10000)
 training_args = TrainingArguments(
     output_dir='./results',
     per_device_train_batch_size=2,
