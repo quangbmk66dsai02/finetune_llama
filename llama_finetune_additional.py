@@ -82,7 +82,7 @@ lora_config = LoraConfig(
     lora_alpha=32,                  # Scaling factor
     lora_dropout=0.1                # Dropout rate
 )
-model = AutoModelForCausalLM.from_pretrained('./lora_adapter', torch_dtype=torch.float16)
+model = AutoModelForCausalLM.from_pretrained('lora_adapter', torch_dtype=torch.float16)
 
 # Apply the LoRA configuration again (if needed)
 model = get_peft_model(model, lora_config)
@@ -124,4 +124,4 @@ total_training_time = end_time - start_time
 print(f"Total training time with new dataset: {total_training_time:.2f} seconds")
 
 # Save the updated fine-tuned model and tokenizer
-model.save_pretrained('./lora_adapter_updated')
+model.save_pretrained('lora_adapter_updated')
