@@ -94,7 +94,7 @@ model.to(device)
 generate_text_callback = GenerateTextCallback(tokenizer, filtered_new_dataset['train'], device, n_steps=10000)
 training_args = TrainingArguments(
     output_dir='./results',
-    per_device_train_batch_size=4,
+    per_device_train_batch_size=2,
     num_train_epochs=3,
     learning_rate=5e-5,
     weight_decay=0.01,
