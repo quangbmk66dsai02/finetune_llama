@@ -13,7 +13,7 @@ def format_prompt(instruction, context):
     """Formats the prompt as it was structured during training."""
     return f"Instruction: {instruction}\nContext: {context}\nAnswer:"
 
-def generate_response(instruction, context, device, max_length=3072):
+def generate_response(instruction, context, device, max_length=512):
     """Generates a response from the fine-tuned model given an instruction and context."""
     # Construct the prompt
     prompt = format_prompt(instruction, context)

@@ -67,7 +67,7 @@ def tokenize_function(examples):
 # Load the new dataset
 
 new_dataset = load_dataset('json', data_files='data/combined-5k-line.jsonl')
-filtered_new_dataset = new_dataset.filter(lambda example: len(example['output']) <= 2000)  #Take all
+filtered_new_dataset = new_dataset.filter(lambda example: len(example['output']) <= 512)  #Take all
 print(filtered_new_dataset)
 print(filtered_new_dataset['train'][0])
 
