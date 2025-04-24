@@ -41,15 +41,27 @@ tokenizer.pad_token = tokenizer.eos_token
 
 
 # Define the tokenization function
+
+
 def tokenize_function(examples):
     inputs = []
     for instruction, input_text, output in zip(examples['instruction'], examples['input'], examples['output']):
-        if input_text.strip():  # Check if 'input' is non-empty
-            # Format with input
-            inputs.append(f"Instruction: {instruction}\nInput: {input_text}\nOutput: {output}")
+        if input_text.strip():
+            return (
+                "Below is an instruction that describes a task, paired with an input that provides further context. "
+                "Write a response that appropriately completes the request.\n\n"
+                f"### Instruction:\n{instruction}\n\n"
+                f"### Input:\n{input_text}\n\n"
+                "### Response:"
+            )
         else:
-            # Format without input
-            inputs.append(f"Instruction: {instruction}\nOutput: {output}")
+            return (
+                "Below is an instruction that describes a task. "
+                "Write a response that appropriately completes the request.\n\n"
+                f"### Instruction:\n{instruction}\n\n"
+                "### Response:"
+            )
+
     
     # Tokenize inputs
     model_inputs = tokenizer(
@@ -91,7 +103,7 @@ print("FINISHED LOADING LORA MODEL")
 # Apply the LoRA configuration again (if needed)
 model.to(device)
 
-generate_text_callback = GenerateTextCallback(tokenizer, filtered_new_dataset['train'], device, n_steps=10000)
+generate_text_callback = GenerateTextCallback(tokenizer, filtered_new_dataset['train'], device, n_steps=1000000)
 training_args = TrainingArguments(
     output_dir='./results',
     per_device_train_batch_size=2,

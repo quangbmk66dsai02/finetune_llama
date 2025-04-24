@@ -115,7 +115,7 @@ training_args = TrainingArguments(
     save_total_limit=2,
     fp16=True,  # Enable mixed precision training
 )
-generate_text_callback = GenerateTextCallback(tokenizer, filtered_dataset['train'], device, n_steps=1000)
+generate_text_callback = GenerateTextCallback(tokenizer, filtered_dataset['train'], device, n_steps=1000000)
 
 # Initialize the Trainer
 trainer = Trainer(
