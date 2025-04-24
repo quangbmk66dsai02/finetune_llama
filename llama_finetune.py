@@ -42,7 +42,7 @@ class GenerateTextCallback(TrainerCallback):
                 outputs = kwargs['model'].generate(**inputs, max_length=500)
 
             generated_text = self.tokenizer.decode(outputs[0], skip_special_tokens=True)
-            print(f"\n\nStep {self.step_count}","="*50, "\n" ,"Generated text:\n{generated_text}\n")
+            print(f"\n\nStep {self.step_count}","="*50, "\n" ,f"Generated text:\n{generated_text}\n")
 
 # Load the dataset
 dataset = load_dataset('json', data_files='data/vi-alpaca.json')
