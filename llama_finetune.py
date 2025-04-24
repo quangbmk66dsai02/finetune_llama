@@ -49,12 +49,22 @@ print(filtered_dataset['train'][0])
 def tokenize_function(examples):
     inputs = []
     for instruction, input_text, output in zip(examples['instruction'], examples['input'], examples['output']):
-        if input_text.strip():  # Check if 'input' is non-empty
-            # Format with input
-            inputs.append(f"Instruction: {instruction}\nInput: {input_text}\nOutput: {output}")
+        if input_text.strip():
+            return (
+                "Below is an instruction that describes a task, paired with an input that provides further context. "
+                "Write a response that appropriately completes the request.\n\n"
+                f"### Instruction:\n{instruction}\n\n"
+                f"### Input:\n{input_text}\n\n"
+                "### Response:"
+            )
         else:
-            # Format without input
-            inputs.append(f"Instruction: {instruction}\nOutput: {output}")
+            return (
+                "Below is an instruction that describes a task. "
+                "Write a response that appropriately completes the request.\n\n"
+                f"### Instruction:\n{instruction}\n\n"
+                "### Response:"
+            )
+
     
     # Tokenize inputs
     model_inputs = tokenizer(
