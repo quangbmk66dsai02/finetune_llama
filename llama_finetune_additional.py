@@ -47,23 +47,22 @@ def tokenize_function(examples):
     inputs = []
     for instruction, input_text, output in zip(examples['instruction'], examples['input'], examples['output']):
         if input_text.strip():
-            return (
+            prompt = (
                 "Below is an instruction that describes a task, paired with an input that provides further context. "
                 "Write a response that appropriately completes the request.\n\n"
                 f"### Instruction:\n{instruction}\n\n"
                 f"### Input:\n{input_text}\n\n"
-                "### Response:"
+                f"### Response:\n{output}"
             )
         else:
-            return (
+            prompt = (
                 "Below is an instruction that describes a task. "
                 "Write a response that appropriately completes the request.\n\n"
                 f"### Instruction:\n{instruction}\n\n"
-                "### Response:"
+                f"### Response:\n{output}"
             )
+        inputs.append(prompt)
 
-    
-    # Tokenize inputs
     model_inputs = tokenizer(
         inputs,
         padding='max_length',
@@ -71,10 +70,8 @@ def tokenize_function(examples):
         max_length=1536,
         return_tensors='pt'
     )
-    # Set labels to be the same as input_ids
     model_inputs['labels'] = model_inputs['input_ids'].clone()
     return model_inputs
-
 
 # Load the new dataset
 
