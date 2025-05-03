@@ -22,7 +22,7 @@ class GenerateTextCallback(TrainerCallback):
 
             if input_text.strip():
                 prompt = (
-                    "Below is an instruction that describes a task, paired with an input that provides further context. "
+                    "Below is an instruction that describes a task, paired with an input that provides further context.\n\n"
                     "Write a response that appropriately completes the request.\n\n"
                     f"### Instruction:\n{instruction}\n\n"
                     f"### Input:\n{input_text}\n\n"
@@ -30,7 +30,7 @@ class GenerateTextCallback(TrainerCallback):
                 )
             else:
                 prompt = (
-                    "Below is an instruction that describes a task. "
+                    "Below is an instruction that describes a task, paired with an input that provides further context. \n\n"
                     "Write a response that appropriately completes the request.\n\n"
                     f"### Instruction:\n{instruction}\n\n"
                     "### Response:"
@@ -39,17 +39,25 @@ class GenerateTextCallback(TrainerCallback):
             inputs = self.tokenizer(prompt, return_tensors='pt').to(self.device)
 
             with torch.no_grad():
-                outputs = kwargs['model'].generate(**inputs, max_length=500)
-
+                outputs = kwargs['model'].generate(
+                                                    **inputs,
+                                                    max_length=500,
+                                                    repetition_penalty=1.2  # Adjust this value as needed
+                                                )
+            # Decode and print the generated text
             generated_text = self.tokenizer.decode(outputs[0], skip_special_tokens=True)
-            print(f"\n\nStep {self.step_count}","="*50, "\n" ,f"Generated text:\n{generated_text}\n")
+            print(f"\n\nStep {self.step_count}","="*100, "\n" ,f"Generated text:\n{generated_text}\n","="*100, "END")
 
 # Load the dataset
 dataset = load_dataset('json', data_files='data/vi-alpaca.json')
-filtered_dataset = dataset.filter(lambda example: len(example['output']) <= 512)
+subset_dataset = dataset['train'].select(range(50))
+
+print(dataset)
+filtered_dataset = dataset['train'].filter(lambda example: len(example['output']) <= 512)
 
 # Initialize the tokenizer
 tokenizer = AutoTokenizer.from_pretrained('meta-llama/Llama-3.2-3B-Instruct')
+
 tokenizer.pad_token = tokenizer.eos_token
 
 # Define the tokenization function
@@ -58,7 +66,7 @@ def tokenize_function(examples):
     for instruction, input_text, output in zip(examples['instruction'], examples['input'], examples['output']):
         if input_text.strip():
             prompt = (
-                "Below is an instruction that describes a task, paired with an input that provides further context. "
+                "Below is an instruction that describes a task, paired with an input that provides further context. \n\n"
                 "Write a response that appropriately completes the request.\n\n"
                 f"### Instruction:\n{instruction}\n\n"
                 f"### Input:\n{input_text}\n\n"
@@ -66,7 +74,7 @@ def tokenize_function(examples):
             )
         else:
             prompt = (
-                "Below is an instruction that describes a task. "
+                "Below is an instruction that describes a task, paired with an input that provides further context. \n\n"
                 "Write a response that appropriately completes the request.\n\n"
                 f"### Instruction:\n{instruction}\n\n"
                 f"### Response:\n{output}"
@@ -77,18 +85,23 @@ def tokenize_function(examples):
         inputs,
         padding='max_length',
         truncation=True,
-        max_length=1536,
+        max_length=512,
         return_tensors='pt'
     )
     model_inputs['labels'] = model_inputs['input_ids'].clone()
     return model_inputs
 
+
 # Tokenize the dataset
-tokenized_dataset = filtered_dataset.map(tokenize_function, batched=True)
+tokenized_dataset = subset_dataset.map(tokenize_function, batched=True)
 
 device = "cuda" if torch.cuda.is_available() else "cpu"
-model = AutoModelForCausalLM.from_pretrained('meta-llama/Llama-3.2-3B-Instruct', torch_dtype=torch.float16)
-
+print(f"Using device: {device}")
+# model = AutoModelForCausalLM.from_pretrained('meta-llama/Llama-3.2-3B-Instruct', torch_dtype=torch.float16)
+model = AutoModelForCausalLM.from_pretrained(
+    'meta-llama/Llama-3.2-3B-Instruct',
+    torch_dtype=torch.float16
+)
 # Configure LoRA
 lora_config = LoraConfig(
     task_type=TaskType.CAUSAL_LM,
@@ -101,13 +114,13 @@ lora_config = LoraConfig(
 # Apply the LoRA configuration to the model
 model = get_peft_model(model, lora_config)
 model.to(device)
-
+input("Finished loading model, press Enter to continue...")
 # Set up training arguments
 training_args = TrainingArguments(
     output_dir='./results',
-    per_device_train_batch_size=2,
-    per_device_eval_batch_size=2,
-    num_train_epochs=3,
+    per_device_train_batch_size=1,
+    per_device_eval_batch_size=1,
+    num_train_epochs=30,
     learning_rate=5e-5,
     weight_decay=0.01,
     logging_dir='./logs',
@@ -117,14 +130,14 @@ training_args = TrainingArguments(
     fp16=True,
 )
 
-generate_text_callback = GenerateTextCallback(tokenizer, filtered_dataset['train'], device, n_steps=50)
+generate_text_callback = GenerateTextCallback(tokenizer, subset_dataset, device, n_steps=50)
 
 # Initialize the Trainer
 trainer = Trainer(
     model=model,
     args=training_args,
-    train_dataset=tokenized_dataset['train'],
-    eval_dataset=tokenized_dataset['train'],
+    train_dataset=tokenized_dataset,
+    eval_dataset=tokenized_dataset,
     callbacks=[generate_text_callback]
 )
 

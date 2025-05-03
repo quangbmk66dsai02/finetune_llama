@@ -27,8 +27,12 @@ class GenerateTextCallback(TrainerCallback):
             
             # Generate text
             with torch.no_grad():
-                outputs = kwargs['model'].generate(**inputs, max_length=500)
-            
+                # outputs = kwargs['model'].generate(**inputs, max_length=500)
+                outputs = kwargs['model'].generate(
+                                                    **inputs,
+                                                    max_length=500,
+                                                    repetition_penalty=1.2  # Adjust this value as needed
+                                                )
             # Decode and print the generated text
             generated_text = self.tokenizer.decode(outputs[0], skip_special_tokens=True)
             print(f"\n\nStep {self.step_count} - Prompt: {prompt}\nGenerated text:\n{generated_text}\n")
@@ -101,8 +105,8 @@ input("finished after lora")
 # Set up training arguments
 training_args = TrainingArguments(
     output_dir='./results',
-    per_device_train_batch_size=2,
-    per_device_eval_batch_size=2,
+    per_device_train_batch_size=1,
+    per_device_eval_batch_size=1,
     num_train_epochs=3,
     learning_rate=5e-5,
     weight_decay=0.01,
