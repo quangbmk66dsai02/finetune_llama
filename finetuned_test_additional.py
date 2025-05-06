@@ -9,7 +9,11 @@ base_model = AutoModelForCausalLM.from_pretrained(
     torch_dtype=torch.float16,
     device_map="auto"
 )
+<<<<<<< HEAD
 dataset = load_dataset('json', data_files='data/test_data.json')['train']
+=======
+dataset = load_dataset('json', data_files='data/combined-5k-line.jsonl')['train']
+>>>>>>> 9b1dd37c8e1e32f92a6ca5786fabfb49702cd4dd
 
 # Load the first adapter
 model = PeftModel.from_pretrained(base_model, './lora-adapter')
