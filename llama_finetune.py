@@ -6,7 +6,7 @@ import torch
 import time
 
 class GenerateTextCallback(TrainerCallback):
-    def __init__(self, tokenizer, dataset, device, n_steps=5):
+    def __init__(self, tokenizer, dataset, device, n_steps=50):
         self.tokenizer = tokenizer
         self.dataset = dataset
         self.device = device
@@ -30,7 +30,7 @@ class GenerateTextCallback(TrainerCallback):
                 )
             else:
                 prompt = (
-                    "Below is an instruction that describes a task, paired with an input that provides further context. \n\n"
+                    "Below is an instruction that describes a task.\n\n"
                     "Write a response that appropriately completes the request.\n\n"
                     f"### Instruction:\n{instruction}\n\n"
                     "### Response:"
@@ -40,17 +40,21 @@ class GenerateTextCallback(TrainerCallback):
 
             with torch.no_grad():
                 outputs = kwargs['model'].generate(
-                                                    **inputs,
-                                                    max_length=500,
-                                                    repetition_penalty=1.2  # Adjust this value as needed
-                                                )
-            # Decode and print the generated text
-            generated_text = self.tokenizer.decode(outputs[0], skip_special_tokens=True)
-            print(f"\n\nStep {self.step_count}","="*100, "\n" ,f"Generated text:\n{generated_text}\n","="*100, "END")
+                    **inputs,
+                    max_new_tokens=1000,
+                    repetition_penalty=1.2,
+                    pad_token_id=self.tokenizer.eos_token_id,
+                )
+
+            generated_tokens = outputs[0][inputs['input_ids'].shape[1]:]
+            generated_text = self.tokenizer.decode(generated_tokens, skip_special_tokens=True)
+            print(f"\n\nStep {self.step_count} {'='*100}\nGenerated text:\n{generated_text}\n{'='*100} END")
+
 
 # Load the dataset
 dataset = load_dataset('json', data_files='data/vi-alpaca.json')
-subset_dataset = dataset['train'].select(range(50))
+# subset_dataset = dataset['train'].select(range(50))
+subset_dataset = dataset['train'] #Take full
 
 print(dataset)
 filtered_dataset = dataset['train'].filter(lambda example: len(example['output']) <= 512)
@@ -85,7 +89,7 @@ def tokenize_function(examples):
         inputs,
         padding='max_length',
         truncation=True,
-        max_length=512,
+        max_length=3024,
         return_tensors='pt'
     )
     model_inputs['labels'] = model_inputs['input_ids'].clone()
@@ -120,7 +124,7 @@ training_args = TrainingArguments(
     output_dir='./results',
     per_device_train_batch_size=1,
     per_device_eval_batch_size=1,
-    num_train_epochs=30,
+    num_train_epochs=3,
     learning_rate=5e-5,
     weight_decay=0.01,
     logging_dir='./logs',
@@ -130,7 +134,7 @@ training_args = TrainingArguments(
     fp16=True,
 )
 
-generate_text_callback = GenerateTextCallback(tokenizer, subset_dataset, device, n_steps=50)
+generate_text_callback = GenerateTextCallback(tokenizer, subset_dataset, device, n_steps=50000)
 
 # Initialize the Trainer
 trainer = Trainer(
