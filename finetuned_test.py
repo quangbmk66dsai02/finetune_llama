@@ -1,10 +1,14 @@
 import torch
 from transformers import AutoTokenizer, AutoModelForCausalLM
 from peft import PeftModel
+from datasets import load_dataset
+
+# Load the dataset
+dataset = load_dataset('json', data_files='data/combined-5k-line.jsonl')['train']
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 base_model = AutoModelForCausalLM.from_pretrained('meta-llama/Llama-3.2-3B-Instruct', torch_dtype=torch.float16)
-model = PeftModel.from_pretrained(base_model, './lora_adapter').to(device)
+model = PeftModel.from_pretrained(base_model, './lora-adapter').to(device)
 tokenizer = AutoTokenizer.from_pretrained('meta-llama/Llama-3.2-3B-Instruct')
 
 def format_prompt(instruction, context):
@@ -25,19 +29,37 @@ def format_prompt(instruction, context):
             "### Response:"
         )
 
-def generate_response(instruction, context, device, max_length=512):
+def generate_response(instruction, context, device, max_length=1512):
     """Generates a response from the fine-tuned model given an instruction and context."""
     prompt = format_prompt(instruction, context)
     inputs = tokenizer(prompt, return_tensors="pt").to(device)
+    prompt_len = inputs["input_ids"].shape[1]
     with torch.no_grad():
-        outputs = model.generate(**inputs, max_length=max_length)
-    return tokenizer.decode(outputs[0], skip_special_tokens=True)
+        outputs = model.generate(
+            **inputs,
+            max_length=max_length + prompt_len,
+            pad_token_id=tokenizer.eos_token_id,
+        )
+    generated_tokens = outputs[0][prompt_len:]  # Skip prompt
+    return tokenizer.decode(generated_tokens, skip_special_tokens=True)
 
 if __name__ == "__main__":
     while True:
-        user_instruction = input("Enter your instruction (or type 'exit' to quit): ")
-        if user_instruction.lower() == "exit":
-            break
-        user_context = input("Enter the related context: ")
-        response = generate_response(user_instruction, user_context, device)
-        print("\nGenerated Response:\n", response, "\n")
+        try:
+            user_input = input("Enter the dataset entry number (or type 'exit' to quit): ")
+            if user_input.lower() == "exit":
+                break
+            entry_number = int(user_input)
+            if 0 <= entry_number < len(dataset):
+                entry = dataset[entry_number]
+                instruction = entry.get('instruction', '')
+                context = entry.get('input', '')
+                print(f"\nInstruction:\n{instruction}\n")
+                print(f"Context:\n{context}\n")
+                response = generate_response(instruction, context, device)
+                print("\nGenerated Response:\n", response, "\n")
+            else:
+                print(f"Please enter a number between 0 and {len(dataset) - 1}.")
+        except Exception as e:
+            print(f"\nAn error occurred: {e}\nContinuing to the next iteration...\n")
+            continue
