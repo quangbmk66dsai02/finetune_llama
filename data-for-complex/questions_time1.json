@@ -1,0 +1,560 @@
+[
+  {
+    "question": "Làm thế nào mà cuộc khởi nghĩa Hai Bà Trưng đã ảnh hưởng đến mô hình cai trị của Trung Quốc tại đất Giao Chỉ?",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Nguyên nhân nào dẫn đến cuộc khởi nghĩa của Hai Bà Trưng?",
+      "Câu hỏi đơn giản 2: Hai Bà Trưng đã thành công trong việc giành lại lãnh thổ như thế nào?",
+      "Câu hỏi đơn giản 3: Trung Quốc đã đáp trả như thế nào sau khi cuộc khởi nghĩa Hai Bà Trưng thất bại?",
+      "Câu hỏi đơn giản 4: Cuộc khởi nghĩa ảnh hưởng thế nào đến các chính sách cai trị của Trung Quốc tại Giao Chỉ?"
+    ]
+  },
+  {
+    "question": "Sự kiện Lý Bôn nổi dậy và thành lập nhà nước Vạn Xuân đã tác động thế nào đến mối quan hệ giữa Trung Quốc và Việt Nam?",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Lý Bôn là ai và vai trò của ông trong cuộc kháng chiến chống lại sự cai trị của Trung Quốc?",
+      "Câu hỏi đơn giản 2: Quá trình hình thành và phát triển của nhà nước Vạn Xuân diễn ra như thế nào?",
+      "Câu hỏi đơn giản 3: Phản ứng của Trung Quốc sau khi nhà nước Vạn Xuân được thành lập là gì?",
+      "Câu hỏi đơn giản 4: Nhà nước Vạn Xuân ảnh hưởng thế nào đến mối quan hệ giữa Trung Quốc và Việt Nam?"
+    ]
+  },
+  {
+    "question": "Những cuộc kháng chiến của các nhà lãnh đạo Việt Nam trong thời kỳ Bắc thuộc lần thứ nhất đã ảnh hưởng ra sao đến xã hội Việt Nam?",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Ai là những nhà lãnh đạo tiêu biểu của Việt Nam trong thời kỳ Bắc thuộc lần thứ nhất?",
+      "Câu hỏi đơn giản 2: Những cuộc kháng chiến trong thời kỳ này đã diễn ra như thế nào?",
+      "Câu hỏi đơn giản 3: Các cuộc kháng chiến đã thất bại ra sao và có hậu quả gì?",
+      "Câu hỏi đơn giản 4: Ảnh hưởng xã hội và văn hóa của những cuộc kháng chiến này lên xã hội Việt Nam?"
+    ]
+  },
+  {
+    "question": "Nền văn hóa Trung Quốc đã ảnh hưởng ra sao đến đời sống người Việt trong thời kỳ Bắc thuộc lần thứ hai?",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Những chính sách đồng hóa văn hóa nào đã được Trung Quốc áp dụng tại Việt Nam trong thời kỳ Bắc thuộc thứ hai?",
+      "Câu hỏi đơn giản 2: Đời sống người Việt đã bị ảnh hưởng như thế nào bởi những chính sách này?",
+      "Câu hỏi đơn giản 3: Sự hấp thụ và chống đối văn hóa Trung Quốc đã diễn ra ra sao trong cộng đồng người Việt?",
+      "Câu hỏi đơn giản 4: Di sản của nền văn hóa Trung Quốc thể hiện thế nào trong xã hội Việt Nam sau kỳ Bắc thuộc?"
+    ]
+  },
+  {
+    "question": "Những yếu tố nào đã dẫn đến sự suy yếu của quyền lực Trung Quốc ở Việt Nam vào thời kỳ Bắc thuộc lần thứ ba?",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Những nguyên nhân về chính trị nào dẫn đến sự suy yếu của quyền lực Trung Quốc tại Việt Nam?",
+      "Câu hỏi đơn giản 2: Các phong trào kháng chiến của người Việt trong thời kỳ này đã diễn ra như thế nào?",
+      "Câu hỏi đơn giản 3: Những yếu tố nào trong nội bộ Trung Quốc đã ảnh hưởng đến khả năng kiểm soát Việt Nam?",
+      "Câu hỏi đơn giản 4: Sự suy yếu của quyền lực Trung Quốc đã tạo ra những cơ hội gì cho người Việt?"
+    ]
+  },
+  {
+    "question": "Lịch sử ghi nhận sự chuyển giao quyền lực như thế nào sau khi kết thúc thời kỳ Bắc thuộc lần thứ tư?",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Những sự kiện nào đánh dấu sự kết thúc thời kỳ Bắc thuộc lần thứ tư?",
+      "Câu hỏi đơn giản 2: Ai là người đã lãnh đạo phong trào giành lại độc lập từ Trung Quốc?",
+      "Câu hỏi đơn giản 3: Quy trình chuyển giao quyền lực từ Trung Quốc cho người Việt đã diễn ra như thế nào?",
+      "Câu hỏi đơn giản 4: Sự chuyển giao này đã thay đổi ra sao cấu trúc chính trị của Việt Nam?"
+    ]
+  },
+  {
+    "question": "Vai trò của các tôn giáo và tín ngưỡng bản địa trong thời kỳ Bắc thuộc có tầm ảnh hưởng ra sao đối với sự chống đối Trung Quốc?",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Những tôn giáo và tín ngưỡng bản địa nào phổ biến tại Việt Nam trong thời kỳ Bắc thuộc?",
+      "Câu hỏi đơn giản 2: Các tôn giáo và tín ngưỡng này đã đóng vai trò gì trong đời sống người Việt?",
+      "Câu hỏi đơn giản 3: Những cuộc kháng chiến chống lại sự cai trị của Trung Quốc được hỗ trợ từ tôn giáo ra sao?",
+      "Câu hỏi đơn giản 4: Tín ngưỡng bản địa đã bị thay đổi thế nào trong thời kỳ Bắc thuộc?"
+    ]
+  },
+  {
+    "question": "Hoạt động kinh tế dưới thời kỳ Bắc thuộc đã phát triển và chịu ảnh hưởng thế nào từ Trung Quốc?",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Các chính sách kinh tế nào đã được áp đặt lên Việt Nam trong thời kỳ Bắc thuộc?",
+      "Câu hỏi đơn giản 2: Người Việt đã tham gia vào các hoạt động kinh tế ra sao dưới sự cai trị của Trung Quốc?",
+      "Câu hỏi đơn giản 3: Trung Quốc đã khai thác những tài nguyên gì từ Việt Nam trong thời kỳ này?",
+      "Câu hỏi đơn giản 4: Sự phát triển kinh tế trong thời kỳ Bắc thuộc đã ảnh hưởng thế nào đến xã hội Việt Nam?"
+    ]
+  },
+  {
+    "question": "Sự phát triển và suy thoái của các triều đại phong kiến Việt Nam từ thế kỉ 9 đến thế kỉ 19?",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Triều đại Ngô, Đinh, Tiền Lê (thế kỉ 9 – 10) đã phát triển như thế nào?",
+      "Câu hỏi đơn giản 2: Thăng trầm của nhà Lý và Trần (thế kỉ 11 – 14) ra sao?",
+      "Câu hỏi đơn giản 3: Nhà Lê sơ, Mạc và Lê trung hưng (thế kỉ 15 – 17) đã có những thay đổi gì?",
+      "Câu hỏi đơn giản 4: Sự phát triển và suy thoái của nhà Nguyễn (thế kỉ 19) diễn ra như thế nào?"
+    ]
+  },
+  {
+    "question": "Sự biến đổi trong các chính sách kinh tế dưới các triều đại phong kiến Việt Nam?",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Chính sách kinh tế của các triều đại từ Ngô đến Lý (thế kỉ 9 – 14) như thế nào?",
+      "Câu hỏi đơn giản 2: Những cải cách kinh tế nào được thực hiện dưới triều Lê sơ và Mạc (thế kỉ 15 – 16)?",
+      "Câu hỏi đơn giản 3: Kinh tế Việt Nam thay đổi thế nào dưới triều Lê trung hưng và Tây Sơn (thế kỉ 17 – 18)?",
+      "Câu hỏi đơn giản 4: Triều Nguyễn áp dụng các chính sách kinh tế gì trong thế kỉ 19?"
+    ]
+  },
+  {
+    "question": "Những cuộc chiến tranh phong kiến ảnh hưởng lớn đến lịch sử Việt Nam từ thế kỉ 10 đến thế kỉ 19?",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Những cuộc chiến tranh lớn đã diễn ra ở Việt Nam trong thế kỉ 10 – 13?",
+      "Câu hỏi đơn giản 2: Thế kỉ 14 – 15 chứng kiến những cuộc chiến nào tác động mạnh mẽ đến đất nước?",
+      "Câu hỏi đơn giản 3: Thế kỉ 16 – 18 có những cuộc chiến phong kiến quan trọng nào?",
+      "Câu hỏi đơn giản 4: Nhà Nguyễn tham gia vào những cuộc chiến tranh quan trọng nào trong thế kỉ 19?"
+    ]
+  },
+  {
+    "question": "Sự thay đổi trong quyền lực của các vị vua và quan lại thời phong kiến Việt Nam?",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Quyền lực của vua và quan lại trong giai đoạn từ nhà Ngô đến nhà Lý (thế kỉ 9 – 14) được thể hiện như thế nào?",
+      "Câu hỏi đơn giản 2: Nhà Lê sơ và Mạc (thế kỉ 15 – 16) đã điều hành quyền lực ra sao?",
+      "Câu hỏi đơn giản 3: Nhà Lê trung hưng và Tây Sơn (thế kỉ 17 – 18) có sự phân chia quyền lực như thế nào?",
+      "Câu hỏi đơn giản 4: Quyền lực của triều đình nhà Nguyễn (thế kỉ 19) có gì thay đổi?"
+    ]
+  },
+  {
+    "question": "Các cuộc khởi nghĩa nông dân dưới triều đại phong kiến từ thế kỉ 10 đến thế kỉ 19?",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Đặc điểm của các cuộc khởi nghĩa nông dân trong thế kỉ 10 - 14?",
+      "Câu hỏi đơn giản 2: Các cuộc nổi dậy của nông dân diễn ra như thế nào trong thế kỉ 15 - 16?",
+      "Câu hỏi đơn giản 3: Những cuộc khởi nghĩa nào tiêu biểu trong thế kỉ 17 - 18?",
+      "Câu hỏi đơn giản 4: Thế kỉ 19 chứng kiến những cuộc khởi nghĩa nông dân nào dưới triều Nguyễn?"
+    ]
+  },
+  {
+    "question": "Sự giao lưu văn hóa giữa Việt Nam với các quốc gia láng giềng thời phong kiến?",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Văn hóa Việt Nam chịu ảnh hưởng từ nước ngoài như thế nào trong thế kỉ 10 - 14?",
+      "Câu hỏi đơn giản 2: Các triều đại Lê sơ và Mạc (thế kỉ 15 - 16) có giao lưu văn hóa ra sao?",
+      "Câu hỏi đơn giản 3: Thế kỉ 17 - 18, văn hóa Việt Nam ảnh hưởng như thế nào từ quốc gia khác?",
+      "Câu hỏi đơn giản 4: Nhà Nguyễn (thế kỉ 19) đã có những giao lưu văn hóa nổi bật nào?"
+    ]
+  },
+  {
+    "question": "Hệ thống giáo dục và thi cử thời phong kiến Việt Nam từ thế kỉ 10 đến thế kỉ 19?",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Hệ thống giáo dục và thi cử phát triển thế nào trong giai đoạn từ thế kỉ 10 – 14?",
+      "Câu hỏi đơn giản 2: Các cải cách giáo dục và thi cử dưới triều Lê sơ và Mạc (thế kỉ 15 – 16) là gì?",
+      "Câu hỏi đơn giản 3: Giáo dục và thi cử thay đổi ra sao trong thế kỉ 17 – 18?",
+      "Câu hỏi đơn giản 4: Thế kỉ 19, dưới triều Nguyễn, hệ thống giáo dục và thi cử có biến đổi gì?"
+    ]
+  },
+  {
+    "question": "Sự hình thành và phát triển của các đô thị thời phong kiến Việt Nam?",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Đặc điểm phát triển đô thị của Việt Nam từ thế kỉ 10 – 14 là gì?",
+      "Câu hỏi đơn giản 2: Các đô thị dưới triều Lê sơ và Mạc (thế kỉ 15 – 16) phát triển ra sao?",
+      "Câu hỏi đơn giản 3: Sự hình thành và phát triển của các đô thị trong thế kỉ 17 – 18 diễn ra như thế nào?",
+      "Câu hỏi đơn giản 4: Triều Nguyễn đã phát triển đô thị như thế nào trong thế kỉ 19?"
+    ]
+  },
+  {
+    "question": "Sự thay đổi trong giao thương và thương mại dưới thời phong kiến?",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Giao thương và thương mại phát triển như thế nào từ thế kỉ 10 – 14?",
+      "Câu hỏi đơn giản 2: Triều Lê sơ và Mạc (thế kỉ 15 – 16) có chính sách thương mại ra sao?",
+      "Câu hỏi đơn giản 3: Giao thương và thương mại đã thay đổi ra sao trong thế kỉ 17 – 18?",
+      "Câu hỏi đơn giản 4: Thời kỳ triều Nguyễn (thế kỉ 19), thương mại có gì đặc biệt?"
+    ]
+  },
+  {
+    "question": "Những cải cách lớn trong xã hội thời phong kiến Việt Nam?",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Những cải cách xã hội quan trọng nào diễn ra trong thế kỉ 10 - 14?",
+      "Câu hỏi đơn giản 2: Triều Lê sơ và Mạc (thế kỉ 15 - 16) đã thực hiện những cải cách gì trong xã hội?",
+      "Câu hỏi đơn giản 3: Sự thay đổi trong cấu trúc xã hội diễn ra như thế nào trong thế kỉ 17 - 18?",
+      "Câu hỏi đơn giản 4: Triều Nguyễn (thế kỉ 19) có những cải cách xã hội lớn nào?"
+    ]
+  },
+  {
+    "question": "Mối quan hệ giữa các triều đại phong kiến Việt Nam và Trung Quốc từ thế kỉ 10 đến thế kỉ 19?",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Quan hệ giữa Việt Nam và Trung Quốc trong giai đoạn từ thế kỉ 10 – 14 diễn ra như thế nào?",
+      "Câu hỏi đơn giản 2: Triều Lê sơ và Mạc (thế kỉ 15 – 16) đã duy trì quan hệ với Trung Quốc ra sao?",
+      "Câu hỏi đơn giản 3: Nhà Lê trung hưng và Tây Sơn (thế kỉ 17 – 18) có tiếp xúc gì mới với Trung Quốc?",
+      "Câu hỏi đơn giản 4: Mối quan hệ giữa triều Nguyễn (thế kỉ 19) và Trung Quốc phát triển ra sao?"
+    ]
+  },
+  {
+    "question": "Vai trò của tôn giáo và tín ngưỡng trong lịch sử phong kiến Việt Nam?",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Tôn giáo và tín ngưỡng có vai trò gì trong thế kỉ 10 - 14?",
+      "Câu hỏi đơn giản 2: Dưới thời Lê sơ và Mạc (thế kỉ 15 - 16), tôn giáo ảnh hưởng như thế nào đến xã hội?",
+      "Câu hỏi đơn giản 3: Sự phát triển của các tôn giáo trong thế kỉ 17 - 18 có gì nổi bật?",
+      "Câu hỏi đơn giản 4: Tôn giáo và tín ngưỡng dưới triều Nguyễn (thế kỉ 19) có ảnh hưởng ra sao?"
+    ]
+  },
+  {
+    "question": "Sự phát triển của nghệ thuật và văn học dưới các triều đại phong kiến?",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Nghệ thuật và văn học phát triển thế nào trong thế kỉ 10 - 14?",
+      "Câu hỏi đơn giản 2: Thời Lê sơ và Mạc (thế kỉ 15 - 16) có những thành tựu nghệ thuật và văn học gì?",
+      "Câu hỏi đơn giản 3: Văn học và nghệ thuật thay đổi thế nào trong thế kỉ 17 - 18?",
+      "Câu hỏi đơn giản 4: Triều Nguyễn (thế kỉ 19) chứng kiến sự phát triển nào trong nghệ thuật và văn học?"
+    ]
+  },
+  {
+    "question": "Những thay đổi trong chiến thuật và công nghệ quân sự dưới thời phong kiến Việt Nam?",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Đặc điểm của chiến thuật và công nghệ quân sự trong giai đoạn từ thế kỉ 10 – 14 là gì?",
+      "Câu hỏi đơn giản 2: Nhà Lê sơ và Mạc (thế kỉ 15 – 16) đã có thay đổi gì trong quân sự?",
+      "Câu hỏi đơn giản 3: Chiến thuật quân sự phát triển ra sao trong thế kỉ 17 – 18?",
+      "Câu hỏi đơn giản 4: Triều Nguyễn (thế kỉ 19) có những đổi mới nào trong công nghệ quân sự?"
+    ]
+  },
+  {
+    "question": "Vai trò của phụ nữ trong xã hội phong kiến từ thế kỉ 10 đến thế kỉ 19?",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Vai trò của phụ nữ trong thế kỉ 10 - 14 được nhìn nhận như thế nào?",
+      "Câu hỏi đơn giản 2: Thế kỉ 15 - 16, phụ nữ có vai trò gì trong xã hội dưới triều Lê sơ và Mạc?",
+      "Câu hỏi đơn giản 3: Vai trò của phụ nữ trong xã hội thế kỉ 17 - 18 thay đổi ra sao?",
+      "Câu hỏi đơn giản 4: Triều Nguyễn (thế kỉ 19) có sự nhận thức gì mới về vai trò của phụ nữ?"
+    ]
+  },
+  {
+    "question": "Những đóng góp khoa học và kỹ thuật thời phong kiến trong lịch sử Việt Nam?",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Những phát minh khoa học và kỹ thuật quan trọng nào diễn ra trong thế kỉ 10 - 14?",
+      "Câu hỏi đơn giản 2: Nhà Lê sơ và Mạc (thế kỉ 15 - 16) có đóng góp gì về khoa học và kỹ thuật?",
+      "Câu hỏi đơn giản 3: Thế kỉ 17 - 18 chứng kiến sự tiến bộ nào trong khoa học và kỹ thuật?",
+      "Câu hỏi đơn giản 4: Triều Nguyễn (thế kỉ 19) có những thành tựu gì đặc biệt về khoa học và kỹ thuật?"
+    ]
+  },
+  {
+    "question": "Các yếu tố dẫn đến sự sụp đổ của các triều đại phong kiến Việt Nam?",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Nguyên nhân nào dẫn đến sự suy yếu của các triều đại trong thế kỉ 10 - 14?",
+      "Câu hỏi đơn giản 2: Thế kỉ 15 - 16, những yếu tố nào đã gây ra sự suy tàn của nhà Lê sơ và Mạc?",
+      "Câu hỏi đơn giản 3: Nhà Lê trung hưng và Tây Sơn (thế kỉ 17 - 18) đã gặp phải thách thức gì?",
+      "Câu hỏi đơn giản 4: Triều Nguyễn (thế kỉ 19) đối diện với những yếu tố nào dẫn đến sự sụp đổ?"
+    ]
+  },
+  {
+    "question": "Sự phát triển nông nghiệp dưới thời phong kiến và ảnh hưởng đến xã hội Việt Nam?",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Nông nghiệp Việt Nam phát triển ra sao trong thế kỉ 10 - 14?",
+      "Câu hỏi đơn giản 2: Triều Lê sơ và Mạc (thế kỉ 15 - 16) ảnh hưởng đến nông nghiệp như thế nào?",
+      "Câu hỏi đơn giản 3: Thế kỉ 17 - 18 có những đổi mới nào trong nông nghiệp?",
+      "Câu hỏi đơn giản 4: Dưới triều Nguyễn (thế kỉ 19), nông nghiệp có ảnh hưởng ra sao đến xã hội?"
+    ]
+  },
+  {
+    "question": "Tại sao cuộc kháng chiến chống Pháp vào cuối thế kỷ 19 không thành công?",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Tình hình chính trị và xã hội Việt Nam trước khi Pháp xâm lược vào cuối thế kỷ 19 diễn ra như thế nào?",
+      "Câu hỏi đơn giản 2: Phân tích các chiến lược và biện pháp mà chính quyền nhà Nguyễn áp dụng để đối phó với sự xâm lược của Pháp.",
+      "Câu hỏi đơn giản 3: Những yếu tố nội tại nào trong chính quyền và xã hội Việt Nam đã góp phần vào sự thất bại trong cuộc kháng chiến chống Pháp cuối thế kỷ 19?",
+      "Câu hỏi đơn giản 4: Vai trò của các quốc gia và yếu tố quốc tế khác trong việc ảnh hưởng đến kết quả của cuộc kháng chiến?"
+    ]
+  },
+  {
+    "question": "Sự kiện nào dẫn đến sự ký kết Hiệp ước Hòa bình Giáp Thân (1884)?",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Tình hình quân sự Việt Nam và Pháp trước khi Hiệp ước Hòa bình Giáp Thân (1884) được ký kết như thế nào?",
+      "Câu hỏi đơn giản 2: Những điều khoản quan trọng trong Hiệp ước Hòa bình Giáp Thân (1884) là gì?",
+      "Câu hỏi đơn giản 3: Phản ứng của xã hội và các tầng lớp dân cư Việt Nam đối với việc ký kết Hiệp ước này?",
+      "Câu hỏi đơn giản 4: Hiệp ước Hòa bình Giáp Thân (1884) đã có tác động như thế nào đến cục diện chính trị tại Việt Nam?"
+    ]
+  },
+  {
+    "question": "Các phong trào kháng chiến tại Việt Nam sau khi Pháp củng cố quyền lực bao gồm những sự kiện quan trọng nào?",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Tình hình Việt Nam và các phong trào kháng chiến ngay sau khi Pháp hoàn tất việc xâm lược vào cuối thế kỷ 19 là gì?",
+      "Câu hỏi đơn giản 2: Phong trào Cần Vương ra đời và phát triển như thế nào trong khung cảnh kháng chiến chống Pháp?",
+      "Câu hỏi đơn giản 3: Các phong trào khởi nghĩa nông dân có vai trò gì trong cuộc đấu tranh chống Pháp?",
+      "Câu hỏi đơn giản 4: Những bài học kinh nghiệm gì được rút ra từ các phong trào kháng chiến này?"
+    ]
+  },
+  {
+    "question": "Những giai đoạn quan trọng trong cuộc kháng chiến chống Pháp từ năm 1945 đến 1954?",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Thách thức và kết quả của chính phủ Việt Nam Dân chủ Cộng hòa từ năm 1945 sau Cách mạng tháng Tám đến trước khi chiến tranh nổ ra?",
+      "Câu hỏi đơn giản 2: Diễn biến chính của cuộc kháng chiến từ 1946 đến 1949 có những đặc điểm nào nổi bật?",
+      "Câu hỏi đơn giản 3: Sự thay đổi về cục diện chiến trường và chiến lược từ năm 1950 đến trước chiến dịch Đông Xuân 1953-1954 ra sao?",
+      "Câu hỏi đơn giản 4: Kết quả và ý nghĩa của chiến dịch Điện Biên Phủ trong năm 1954?"
+    ]
+  },
+  {
+    "question": "Tác động của sự can thiệp quốc tế vào cuộc kháng chiến chống Pháp?",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Những quốc gia nào tham gia và ảnh hưởng đến cuộc chiến tranh giữa Pháp và Việt Nam từ 1945?",
+      "Câu hỏi đơn giản 2: Vai trò của Trung Quốc và Liên Xô trong việc tài trợ và hỗ trợ đối với cuộc kháng chiến?",
+      "Câu hỏi đơn giản 3: Pháp đã nhận được sự hỗ trợ quốc tế nào trong suốt cuộc chiến và tác động của sự hỗ trợ này là gì?",
+      "Câu hỏi đơn giản 4: Hội nghị Genève năm 1954 đã diễn ra thế nào và có kết quả gì đối với Việt Nam?"
+    ]
+  },
+  {
+    "question": "Vai trò của Đảng Cộng sản Việt Nam trong cuộc kháng chiến chống Pháp?",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Tình hình và vai trò của Đảng Cộng sản Việt Nam ngay sau năm 1945?",
+      "Câu hỏi đơn giản 2: Những biện pháp chính sách và chiến lược nào của Đảng đã được triển khai từ 1946 đến 1949?",
+      "Câu hỏi đơn giản 3: Tầm quan trọng của các quyết định của Đảng sau khi Liên Xô và Trung Quốc công nhận chính phủ Việt Nam Dân chủ Cộng hòa từ năm 1950?",
+      "Câu hỏi đơn giản 4: Đảng Cộng sản Việt Nam điều hành và tổ chức chiến dịch Điện Biên Phủ năm 1954 như thế nào?"
+    ]
+  },
+  {
+    "question": "Những yếu tố kinh tế gì đã ảnh hưởng đến cuộc kháng chiến chống Pháp?",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Tình hình kinh tế Việt Nam sau năm 1945 và những thách thức chính là gì?",
+      "Câu hỏi đơn giản 2: Đảng và chính phủ đã thực hiện những chính sách kinh tế nào để huy động nguồn lực cho chiến tranh?",
+      "Câu hỏi đơn giản 3: Các hoạt động kinh tế từ năm 1946 đến năm 1954 bị ảnh hưởng thế nào do chiến tranh?",
+      "Câu hỏi đơn giản 4: Kết quả và hậu quả kinh tế nào sau chiến thắng Điện Biên Phủ?"
+    ]
+  },
+  {
+    "question": "Tầm ảnh hưởng của Chiến dịch Biên giới Thu Đông (1950) đối với cuộc kháng chiến chống Pháp?",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Tình hình chiến sự và mục tiêu chiến lược chính của Chiến dịch Biên giới Thu Đông năm 1950?",
+      "Câu hỏi đơn giản 2: Ý nghĩa của việc khai thông biên giới Việt - Trung đối với cuộc kháng chiến?",
+      "Câu hỏi đơn giản 3: Kết quả chiến dịch này đã có tác động thế nào đến sự tự tin và khả năng chiến đấu của quân dân Việt Nam?",
+      "Câu hỏi đơn giản 4: Các yếu tố nào đã góp phần tạo nên thắng lợi của chiến dịch Biên giới Thu Đông 1950?"
+    ]
+  },
+  {
+    "question": "Lý do và hậu quả của việc Mỹ can thiệp vào Việt Nam?",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Tại sao Mỹ quyết định can thiệp vào cuộc chiến tại Việt Nam sau năm 1954?",
+      "Câu hỏi đơn giản 2: Giai đoạn 1965–1968, Mỹ thực hiện các chiến lược quân sự nào để can thiệp vào Việt Nam?",
+      "Câu hỏi đơn giản 3: Những phản ứng quốc tế đối với việc Mỹ leo thang chiến tranh tại Việt Nam như thế nào?",
+      "Câu hỏi đơn giản 4: Hậu quả lâu dài của sự can thiệp của Mỹ tại Việt Nam sau khi họ rút quân năm 1973 là gì?"
+    ]
+  },
+  {
+    "question": "Vai trò của các nước lớn trong cuộc kháng chiến chống Mỹ?",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Liên Xô và Trung Quốc đã hỗ trợ Việt Nam như thế nào từ 1954 đến 1964?",
+      "Câu hỏi đơn giản 2: Mỹ đã thay đổi chiến lược ra sao trong mối quan hệ với các nước lớn từ 1965 đến 1972?",
+      "Câu hỏi đơn giản 3: Tác động của cuộc kháng chiến chống Mỹ đối với mối quan hệ giữa Trung Quốc và Liên Xô?",
+      "Câu hỏi đơn giản 4: Sau năm 1973, Việt Nam đã điều chỉnh quan hệ ngoại giao với các nước lớn ra sao?"
+    ]
+  },
+  {
+    "question": "Những thách thức kinh tế Việt Nam phải đối mặt trong thời kỳ kháng chiến chống Mỹ?",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Nền kinh tế miền Bắc và miền Nam khác nhau như thế nào sau Hiệp định Genève 1954?",
+      "Câu hỏi đơn giản 2: Giai đoạn 1965–1968, miền Bắc và miền Nam Việt Nam đối mặt với những khó khăn kinh tế gì?",
+      "Câu hỏi đơn giản 3: Làm thế nào Việt Nam có thể duy trì và phát triển kinh tế trong bối cảnh chiến tranh giai đoạn 1970-1973?",
+      "Câu hỏi đơn giản 4: Hậu quả kinh tế của chiến tranh ở cả hai miền Nam và Bắc sau năm 1975?"
+    ]
+  },
+  {
+    "question": "Sự phát triển của phong trào phản chiến tại Mỹ ảnh hưởng đến chiến tranh Việt Nam như thế nào?",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Nguyên nhân nào dẫn đến sự phát triển của phong trào phản chiến tại Mỹ vào những năm 1960?",
+      "Câu hỏi đơn giản 2: Các phong trào phản chiến tại Mỹ đã gia tăng những hoạt động gì trong khoảng 1965–1970?",
+      "Câu hỏi đơn giản 3: Chính quyền Mỹ đã có phản ứng thế nào trước sự lớn mạnh của phong trào phản chiến trong thời kỳ 1971-1973?",
+      "Câu hỏi đơn giản 4: Phong trào phản chiến đã tác động như thế nào đến quyết định rút quân của Mỹ vào năm 1973?"
+    ]
+  },
+  {
+    "question": "Chiến lược chiến tranh của Mỹ tại Việt Nam có những thay đổi quan trọng nào?",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Từ năm 1954 đến 1964, Mỹ đã thực hiện các biện pháp chiến tranh nào tại Việt Nam?",
+      "Câu hỏi đơn giản 2: Giai đoạn 1965–1968, chiến lược \"chiến tranh cục bộ\" của Mỹ được triển khai ra sao?",
+      "Câu hỏi đơn giản 3: Những thay đổi trong chính sách của Mỹ đối với cuộc chiến tại Việt Nam từ 1969 đến 1972 là gì?",
+      "Câu hỏi đơn giản 4: Sau Hiệp định Paris năm 1973, chiến lược rút lui của Mỹ được thực hiện như thế nào?"
+    ]
+  },
+  {
+    "question": "Tác động của chiến tranh đối với cuộc sống của người dân Việt Nam?",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Người dân miền Nam và miền Bắc sống trong hoàn cảnh nào sau năm 1954?",
+      "Câu hỏi đơn giản 2: Những thay đổi trong đời sống của người dân Việt Nam từ 1965–1970 là gì?",
+      "Câu hỏi đơn giản 3: Từ năm 1971 đến 1973, cuộc chiến đã ảnh hưởng thế nào đến đời sống xã hội Việt Nam?",
+      "Câu hỏi đơn giản 4: Sau năm 1975, hậu quả xã hội lâu dài của chiến tranh đối với người dân Việt Nam là gì?"
+    ]
+  },
+  {
+    "question": "Vai trò của chính quyền và quân đội miền Nam trong kháng chiến chống Mỹ?",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Chính quyền Ngô Đình Diệm quản lý miền Nam như thế nào từ 1954-1963?",
+      "Câu hỏi đơn giản 2: Cuộc đảo chính năm 1963 ảnh hưởng như thế nào đến tình hình nội bộ miền Nam?",
+      "Câu hỏi đơn giản 3: Quân đội Sài Gòn đã tham gia các chiến dịch chiến tranh nào từ 1965–1972?",
+      "Câu hỏi đơn giản 4: Sau khi Mỹ thực hiện Việt Nam hóa chiến tranh, quân đội miền Nam đã thay đổi ra sao cho đến năm 1975?"
+    ]
+  },
+  {
+    "question": "Hiệp định Paris 1973 đã giải quyết được những vấn đề gì trong cuộc kháng chiến chống Mỹ?",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Tại sao các bên quyết định tham gia đàm phán Hiệp định Paris từ năm 1968?",
+      "Câu hỏi đơn giản 2: Những vấn đề then chốt nào được bàn thảo trong các vòng đàm phán từ 1971–1973?",
+      "Câu hỏi đơn giản 3: Điều kiện và kết quả chính của Hiệp định Paris ký kết năm 1973 là gì?",
+      "Câu hỏi đơn giản 4: Hiệp định Paris có hiệu lực thế nào trong bối cảnh chiến tranh tiếp diễn sau năm 1973?"
+    ]
+  },
+  {
+    "question": "Vai trò của Hồ Chí Minh trong cuộc kháng chiến chống Mỹ?",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Hồ Chí Minh đã dẫn dắt cuộc kháng chiến chống Mỹ như thế nào từ 1954–1960?",
+      "Câu hỏi đơn giản 2: Từ 1961–1965, những chính sách quan trọng nào đã được Hồ Chí Minh đề xuất?",
+      "Câu hỏi đơn giản 3: Trong giai đoạn 1966–1969, Hồ Chí Minh đã làm gì để cổ vũ tinh thần dân tộc?",
+      "Câu hỏi đơn giản 4: Di sản của Hồ Chí Minh sau khi ông qua đời vào năm 1969 ảnh hưởng ra sao đến chiến lược kháng chiến của Việt Nam?"
+    ]
+  },
+  {
+    "question": "Quá trình đổi mới chính trị và cải cách hành chính ở Việt Nam từ sau 1986 đến nay?",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Sau năm 1986, quá trình đổi mới chính trị ở Việt Nam bắt đầu như thế nào?",
+      "Câu hỏi đơn giản 2: Những cải cách hành chính nào đã được thực hiện trong thập niên 1990?",
+      "Câu hỏi đơn giản 3: Trong những năm 2000, công tác cải cách hành chính của Việt Nam có đặc điểm gì nổi bật?",
+      "Câu hỏi đơn giản 4: Giai đoạn từ 2010 đến nay, Việt Nam đã tiếp tục đổi mới chính trị và hành chính ra sao?"
+    ]
+  },
+  {
+    "question": "Sự phát triển của hệ thống giáo dục Việt Nam từ sau 1945 đến nay?",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Hệ thống giáo dục Việt Nam sau năm 1945 phát triển như thế nào?",
+      "Câu hỏi đơn giản 2: Nhận định về sự thay đổi trong hệ thống giáo dục Việt Nam thập niên 1970-1980?",
+      "Câu hỏi đơn giản 3: Giai đoạn từ 1986, tác động của chính sách đổi mới đến giáo dục Việt Nam là gì?",
+      "Câu hỏi đơn giản 4: Những bước tiến trong giáo dục Việt Nam từ 2000 đến nay như thế nào?"
+    ]
+  },
+  {
+    "question": "Quá trình đô thị hóa ở Việt Nam kể từ sau 1954?",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Từ sau 1954, quá trình đô thị hóa ở miền Bắc Việt Nam diễn ra ra sao?",
+      "Câu hỏi đơn giản 2: Sau 1975, miền Nam đã trải qua đô thị hóa như thế nào?",
+      "Câu hỏi đơn giản 3: Giai đoạn Đổi Mới, quá trình đô thị hóa ở Việt Nam phát triển ra sao?",
+      "Câu hỏi đơn giản 4: Đặc điểm đô thị hóa tại Việt Nam từ năm 2000 đến nay là gì?"
+    ]
+  },
+  {
+    "question": "Sự biến đổi của văn hóa và xã hội Việt Nam dưới tác động của khai thác tài nguyên thiên nhiên từ 1980 đến nay?",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Sau 1980, hoạt động khai thác tài nguyên thiên nhiên ở Việt Nam diễn ra như thế nào?",
+      "Câu hỏi đơn giản 2: Những biến đổi văn hóa xã hội do khai thác tài nguyên trong thập niên 1990 là gì?",
+      "Câu hỏi đơn giản 3: Từ năm 2000, tác động của khai thác tài nguyên thiên nhiên đến xã hội Việt Nam có những đặc điểm gì?",
+      "Câu hỏi đơn giản 4: Đến năm 2023, hoạt động khai thác tài nguyên đã ảnh hưởng ra sao đến văn hóa Việt Nam?"
+    ]
+  },
+  {
+    "question": "Sự phát triển của công nghệ thông tin và viễn thông tại Việt Nam từ sau 1990?",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Ngành công nghệ thông tin và viễn thông ở Việt Nam khởi đầu từ sau 1990 như thế nào?",
+      "Câu hỏi đơn giản 2: Trong thập niên 2000, công nghệ thông tin và viễn thông Việt Nam phát triển ra sao?",
+      "Câu hỏi đơn giản 3: Những tiến bộ nào trong công nghệ thông tin đã xảy ra ở Việt Nam từ 2010 đến 2020?",
+      "Câu hỏi đơn giản 4: Từ 2020 đến nay, công nghệ thông tin ở Việt Nam có những bước phát triển nào?"
+    ]
+  },
+  {
+    "question": "Quá trình hội nhập quốc tế của Việt Nam từ năm 1975 đến nay?",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Sau 1975, Việt Nam đã thực hiện những bước hội nhập quốc tế nào?",
+      "Câu hỏi đơn giản 2: Giai đoạn sau Đổi Mới 1986, Việt Nam đã hội nhập quốc tế ra sao?",
+      "Câu hỏi đơn giản 3: Việt Nam gia nhập WTO năm 2007 có ý nghĩa như thế nào trong tiến trình hội nhập?",
+      "Câu hỏi đơn giản 4: Từ năm 2010 đến nay, Việt Nam đã mở rộng mối quan hệ quốc tế thế nào?"
+    ]
+  },
+  {
+    "question": "Sự chuyển mình của ngành nông nghiệp Việt Nam từ năm 1945 đến nay?",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Sau năm 1945, ngành nông nghiệp ở Việt Nam phát triển ra sao?",
+      "Câu hỏi đơn giản 2: Giai đoạn từ 1975, nông nghiệp Việt Nam gặp phải những thách thức nào?",
+      "Câu hỏi đơn giản 3: Từ Đổi Mới 1986, chuyển biến lớn trong nông nghiệp Việt Nam là gì?",
+      "Câu hỏi đơn giản 4: Xu hướng phát triển của nông nghiệp Việt Nam từ năm 2000 đến nay là gì?"
+    ]
+  },
+  {
+    "question": "Sự biến đổi môi trường và khí hậu ở Việt Nam từ năm 1980 đến nay?",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Đặc điểm và nguyên nhân biến đổi môi trường ở Việt Nam từ thập niên 1980 là gì?",
+      "Câu hỏi đơn giản 2: Giai đoạn thập niên 1990, tác động của biến đổi khí hậu đến Việt Nam như thế nào?",
+      "Câu hỏi đơn giản 3: Năm 2000, Việt Nam đã có những biện pháp gì để đối phó với biến đổi khí hậu?",
+      "Câu hỏi đơn giản 4: Từ 2010 đến nay, Việt Nam đã đạt những thành tựu gì trong việc bảo vệ môi trường?"
+    ]
+  },
+  {
+    "question": "Sự phát triển của du lịch Việt Nam từ sau năm 1975 đến nay?",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Ngành du lịch Việt Nam bắt đầu phát triển thế nào sau năm 1975?",
+      "Câu hỏi đơn giản 2: Trong thập niên 1990, du lịch Việt Nam có những thành tựu đáng kể nào?",
+      "Câu hỏi đơn giản 3: Từ năm 2000, xu hướng phát triển của du lịch Việt Nam ra sao?",
+      "Câu hỏi đơn giản 4: Giai đoạn từ 2010 đến nay, du lịch Việt Nam có những bước tiến như thế nào?"
+    ]
+  },
+  {
+    "question": "Sự phát triển của hệ thống y tế Việt Nam từ năm 1945 đến hiện nay?",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Hệ thống y tế Việt Nam đã phát triển ra sao từ năm 1945?",
+      "Câu hỏi đơn giản 2: Từ 1975, Việt Nam có những cải cách nào đáng kể trong ngành y tế?",
+      "Câu hỏi đơn giản 3: Giai đoạn Đổi Mới từ 1986, y tế Việt Nam thay đổi thế nào?",
+      "Câu hỏi đơn giản 4: Các thành tựu y tế tại Việt Nam từ 2000 đến nay là gì?"
+    ]
+  },
+  {
+    "question": "Tác động của quá trình toàn cầu hóa đến kinh tế và xã hội Việt Nam từ năm 1990 đến nay?",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Toàn cầu hóa đã bắt đầu tác động thế nào đến Việt Nam sau năm 1990?",
+      "Câu hỏi đơn giản 2: Trong thập niên 2000, quá trình toàn cầu hóa có những ảnh hưởng nào đến kinh tế Việt Nam?",
+      "Câu hỏi đơn giản 3: Những thay đổi xã hội Việt Nam từ hiệu ứng toàn cầu hóa sau năm 2000 là gì?",
+      "Câu hỏi đơn giản 4: Từ 2010 đến nay, Việt Nam đã thích ứng thế nào với ảnh hưởng của toàn cầu hóa?"
+    ]
+  },
+  {
+    "question": "Sự phát triển của hạ tầng giao thông tại Việt Nam từ năm 1980 đến nay?",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Tình trạng hạ tầng giao thông ở Việt Nam trong thập niên 1980 thế nào?",
+      "Câu hỏi đơn giản 2: Giai đoạn thập niên 1990, hạ tầng giao thông Việt Nam đã có những cải cách gì?",
+      "Câu hỏi đơn giản 3: Những tiến bộ trong phát triển hạ tầng giao thông ở Việt Nam từ năm 2000 là gì?",
+      "Câu hỏi đơn giản 4: Từ năm 2010 đến nay, hạ tầng giao thông Việt Nam đã có những thay đổi gì nổi bật?"
+    ]
+  },
+  {
+    "question": "Sự phát triển của công nghiệp Việt Nam từ sau năm 1954?",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Từ sau 1954, công nghiệp Việt Nam bắt đầu phát triển như thế nào?",
+      "Câu hỏi đơn giản 2: Sau 1975, công nghiệp Việt Nam có những thay đổi ra sao?",
+      "Câu hỏi đơn giản 3: Từ năm 1986, quá trình Đổi Mới đã có tác động gì đến công nghiệp Việt Nam?",
+      "Câu hỏi đơn giản 4: Sự phát triển của công nghiệp Việt Nam từ năm 2000 đến nay diễn biến thế nào?"
+    ]
+  },
+  {
+    "question": "Sự thay đổi của truyền thông và báo chí tại Việt Nam từ sau 1980 đến nay?",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Truyền thông và báo chí Việt Nam sau năm 1980 đã phát triển ra sao?",
+      "Câu hỏi đơn giản 2: Trong thập niên 1990, ngành truyền thông và báo chí Việt Nam có những thay đổi nào?",
+      "Câu hỏi đơn giản 3: Từ năm 2000, truyền thông Việt Nam đã phát triển theo hướng nào?",
+      "Câu hỏi đơn giản 4: Truyền thông và báo chí Việt Nam từ năm 2010 đến nay có đặc điểm gì nổi bật?"
+    ]
+  },
+  {
+    "question": "Sự biến đổi về chính sách dân số và lao động tại Việt Nam từ năm 1975 đến nay?",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Sau năm 1975, chính sách dân số và lao động tại Việt Nam được hình thành ra sao?",
+      "Câu hỏi đơn giản 2: Giai đoạn 1980-1990, Việt Nam thực hiện những biện pháp nào về dân số và lao động?",
+      "Câu hỏi đơn giản 3: Từ 1990, chính sách dân số và lao động tại Việt Nam có sự thay đổi gì nổi bật?",
+      "Câu hỏi đơn giản 4: Những cải cách dân số và lao động tại Việt Nam từ năm 2000 đến nay là gì?"
+    ]
+  },
+  {
+    "question": "Sự phát triển ngành dịch vụ tài chính ngân hàng tại Việt Nam từ sau 1990 đến nay?",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Sau 1990, Việt Nam đã phát triển ngành dịch vụ tài chính ngân hàng ra sao?",
+      "Câu hỏi đơn giản 2: Trong thập niên 2000, ngành tài chính ngân hàng Việt Nam có sự thay đổi nào đáng chú ý?",
+      "Câu hỏi đơn giản 3: Từ năm 2010, xu hướng phát triển của ngành tài chính ngân hàng Việt Nam là gì?",
+      "Câu hỏi đơn giản 4: Giai đoạn từ 2020 đến nay, ngành tài chính ngân hàng Việt Nam có những đổi mới như thế nào?"
+    ]
+  },
+  {
+    "question": "Sự phát triển khoa học và công nghệ tại Việt Nam từ năm 1975 đến nay?",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Từ sau 1975, khoa học và công nghệ Việt Nam bắt đầu phát triển như thế nào?",
+      "Câu hỏi đơn giản 2: Trong những năm 1990, Việt Nam đã đạt được thành tựu nào trong lĩnh vực khoa học công nghệ?",
+      "Câu hỏi đơn giản 3: Từ 2000, những bước tiến trong khoa học công nghệ tại Việt Nam là gì?",
+      "Câu hỏi đơn giản 4: Khoa học và công nghệ Việt Nam từ năm 2010 đến nay đã đạt được những thành tựu gì?"
+    ]
+  },
+  {
+    "question": "Sự thay đổi của hệ thống pháp luật Việt Nam từ sau 1980 đến nay?",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Sau năm 1980, hệ thống pháp luật Việt Nam đã có những điều chỉnh gì?",
+      "Câu hỏi đơn giản 2: Trong thập niên 1990, Việt Nam thực hiện cải cách pháp luật ra sao?",
+      "Câu hỏi đơn giản 3: Những thay đổi chủ yếu trong hệ thống pháp luật Việt Nam từ năm 2000 là gì?",
+      "Câu hỏi đơn giản 4: Từ năm 2010 đến nay, Việt Nam đã có những cải cách pháp luật nào đáng kể?"
+    ]
+  },
+  {
+    "question": "Sự phát triển của quốc phòng và an ninh Việt Nam từ sau 1975 đến nay?",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Sau năm 1975, Việt Nam đã phát triển quốc phòng và an ninh thế nào?",
+      "Câu hỏi đơn giản 2: Giai đoạn thập niên 1980, những thách thức về quốc phòng an ninh mà Việt Nam phải đối mặt là gì?",
+      "Câu hỏi đơn giản 3: Từ năm 2000, Việt Nam đã phát triển quốc phòng an ninh ra sao?",
+      "Câu hỏi đơn giản 4: Những tiến bộ trong lĩnh vực quốc phòng an ninh Việt Nam từ 2010 đến nay là gì?"
+    ]
+  }
+]

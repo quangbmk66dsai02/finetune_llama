@@ -1,0 +1,735 @@
+[
+  {
+    "question": "So sánh sự phát triển của công cụ lao động trong các nền văn hóa Phùng Nguyên, Đồng Đậu, và Gò Mun.",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Công cụ lao động của văn hóa Phùng Nguyên có đặc điểm gì?",
+      "Câu hỏi đơn giản 2: Văn hóa Đồng Đậu đã có những cải tiến gì trong công cụ lao động?",
+      "Câu hỏi đơn giản 3: Công cụ lao động của văn hóa Gò Mun phát triển ra sao?"
+    ]
+  },
+  {
+    "question": "Phân tích tác động của địa lý và khí hậu đến sự hình thành các nền văn hóa Sơn Vi, Hòa Bình và Bắc Sơn.",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Địa lý và khí hậu đã ảnh hưởng thế nào đến văn hóa Sơn Vi?",
+      "Câu hỏi đơn giản 2: Văn hóa Hòa Bình chịu tác động của môi trường địa lý và khí hậu như thế nào?",
+      "Câu hỏi đơn giản 3: Điều kiện tự nhiên đã định hình văn hóa Bắc Sơn ra sao?"
+    ]
+  },
+  {
+    "question": "So sánh tổ chức xã hội trong các nền văn hóa Đông Sơn, Sa Huỳnh và Óc Eo.",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Tổ chức xã hội của văn hóa Đông Sơn như thế nào?",
+      "Câu hỏi đơn giản 2: Văn hóa Sa Huỳnh có cơ cấu xã hội ra sao?",
+      "Câu hỏi đơn giản 3: Tổ chức xã hội trong văn hóa Óc Eo có đặc điểm gì?"
+    ]
+  },
+  {
+    "question": "So sánh các hình thức chôn cất trong nền văn hóa Đông Sơn và Sa Huỳnh.",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Hình thức chôn cất trong văn hóa Đông Sơn có đặc điểm gì?",
+      "Câu hỏi đơn giản 2: Văn hóa Sa Huỳnh thực hiện nghi thức chôn cất ra sao?"
+    ]
+  },
+  {
+    "question": "Phân tích tiến bộ kỹ thuật trong sản xuất nông nghiệp của các nền văn hóa Hòa Bình và Bắc Sơn.",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Kỹ thuật sản xuất nông nghiệp của văn hóa Hòa Bình có gì nổi bật?",
+      "Câu hỏi đơn giản 2: Văn hóa Bắc Sơn đã phát triển kỹ thuật nông nghiệp như thế nào?"
+    ]
+  },
+  {
+    "question": "So sánh vai trò của giao thương trong các nền văn hóa Đông Sơn và Óc Eo.",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Vai trò của giao thương trong văn hóa Đông Sơn ra sao?",
+      "Câu hỏi đơn giản 2: Giao thương đã ảnh hưởng thế nào đến văn hóa Óc Eo?"
+    ]
+  },
+  {
+    "question": "Phân tích ảnh hưởng của thiên nhiên đối với các công trình kiến trúc của văn hóa Óc Eo.",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Thiên nhiên đã tác động như thế nào đến kiến trúc của văn hóa Óc Eo?",
+      "Câu hỏi đơn giản 2: Có những yếu tố thiên nhiên nào phù hợp với việc xây dựng của văn hóa Óc Eo?"
+    ]
+  },
+  {
+    "question": "So sánh tín ngưỡng và nghi lễ của văn hóa Đông Sơn và Sa Huỳnh.",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Tín ngưỡng và nghi lễ của văn hóa Đông Sơn có những đặc điểm gì?",
+      "Câu hỏi đơn giản 2: Văn hóa Sa Huỳnh có tín ngưỡng và nghi lễ ra sao?"
+    ]
+  },
+  {
+    "question": "Phân tích sự tác động của yếu tố địa lý đến sự phát triển kinh tế của các nền văn hóa Phùng Nguyên, Đồng Đậu và Gò Mun.",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Địa lý đã ảnh hưởng thế nào đến kinh tế văn hóa Phùng Nguyên?",
+      "Câu hỏi đơn giản 2: Văn hóa Đồng Đậu có những thay đổi kinh tế gì do địa lý chi phối?",
+      "Câu hỏi đơn giản 3: Địa lý đóng vai trò gì trong phát triển kinh tế của văn hóa Gò Mun?"
+    ]
+  },
+  {
+    "question": "So sánh sự phát triển nghệ thuật điêu khắc của văn hóa Đông Sơn và Sa Huỳnh.",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Nghệ thuật điêu khắc trong văn hóa Đông Sơn phát triển ra sao?",
+      "Câu hỏi đơn giản 2: Văn hóa Sa Huỳnh có nghệ thuật điêu khắc như thế nào?"
+    ]
+  },
+  {
+    "question": "Phân tích đặc điểm và ý nghĩa của các công cụ đá trong văn hóa Hòa Bình và Bắc Sơn.",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Công cụ đá trong văn hóa Hòa Bình có đặc điểm gì?",
+      "Câu hỏi đơn giản 2: Ý nghĩa của công cụ đá đối với văn hóa Bắc Sơn là gì?"
+    ]
+  },
+  {
+    "question": "So sánh sự xuất hiện và phát triển của đồ gốm trong văn hóa Đồng Đậu và Gò Mun.",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Đồ gốm trong văn hóa Đồng Đậu có đặc điểm gì nổi bật?",
+      "Câu hỏi đơn giản 2: Sự phát triển của đồ gốm trong văn hóa Gò Mun ra sao?"
+    ]
+  },
+  {
+    "question": "Phân tích vai trò của chế tác kim loại trong đời sống xã hội của các nền văn hóa Đông Sơn và Sa Huỳnh.",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Chế tác kim loại đã ảnh hưởng như thế nào đến đời sống xã hội trong văn hóa Đông Sơn?",
+      "Câu hỏi đơn giản 2: Văn hóa Sa Huỳnh sử dụng kim loại trong đời sống ra sao?"
+    ]
+  },
+  {
+    "question": "So sánh tổ chức kinh tế của văn hóa Óc Eo và Đông Sơn.",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Tổ chức kinh tế của văn hóa Óc Eo có đặc điểm gì?",
+      "Câu hỏi đơn giản 2: Văn hóa Đông Sơn đã phát triển tổ chức kinh tế như thế nào?"
+    ]
+  },
+  {
+    "question": "Phân tích ảnh hưởng của sự giao lưu văn hóa với các vùng khác trong văn hóa Đông Sơn và Óc Eo.",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Sự giao lưu văn hóa đã ảnh hưởng thế nào đến văn hóa Đông Sơn?",
+      "Câu hỏi đơn giản 2: Văn hóa Óc Eo chịu sự tác động của giao lưu văn hóa như thế nào?"
+    ]
+  },
+  {
+    "question": "So sánh các hình thức nghệ thuật trong văn hóa Đông Sơn và văn hóa Sa Huỳnh.",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Nghệ thuật của văn hóa Đông Sơn có đặc điểm gì?",
+      "Câu hỏi đơn giản 2: Văn hóa Sa Huỳnh phát triển hình thức nghệ thuật như thế nào?"
+    ]
+  },
+  {
+    "question": "Phân tích sự phát triển trong tổ chức xã hội của văn hóa Phùng Nguyên và Gò Mun.",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Văn hóa Phùng Nguyên đã tổ chức xã hội như thế nào?",
+      "Câu hỏi đơn giản 2: Sự phát triển trong tổ chức xã hội của văn hóa Gò Mun ra sao?"
+    ]
+  },
+  {
+    "question": "So sánh nguồn gốc và quá trình phát triển của văn hóa Sa Huỳnh và Óc Eo.",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Nguyên gốc và sự phát triển của văn hóa Sa Huỳnh diễn ra như thế nào?",
+      "Câu hỏi đơn giản 2: Văn hóa Óc Eo có nguồn gốc và quá trình phát triển ra sao?"
+    ]
+  },
+  {
+    "question": "Phân tích sự liên hệ giữa điều kiện tự nhiên và phong tục của người dân thời kỳ tiền sử Việt Nam.",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Phong tục của người dân thời kỳ tiền sử bị ảnh hưởng ra sao bởi điều kiện tự nhiên?",
+      "Câu hỏi đơn giản 2: Những yếu tố tự nhiên nào có tác động rõ rệt lên phong tục?"
+    ]
+  },
+  {
+    "question": "So sánh sự hình thành và phát triển của hệ thống tín ngưỡng trong các nền văn hóa Hòa Bình và Bắc Sơn.",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Hệ thống tín ngưỡng đã được hình thành và phát triển như thế nào trong văn hóa Hòa Bình?",
+      "Câu hỏi đơn giản 2: Văn hóa Bắc Sơn có hệ thống tín ngưỡng ra sao?"
+    ]
+  },
+  {
+    "question": "So sánh ảnh hưởng của văn hóa Hán và văn hóa bản địa đối với người Việt trong thời kỳ Bắc thuộc.",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Văn hóa Hán đã ảnh hưởng thế nào đến người Việt trong thời kỳ Bắc thuộc?",
+      "Câu hỏi đơn giản 2: Văn hóa bản địa đóng vai trò ra sao trong việc duy trì bản sắc dân tộc?"
+    ]
+  },
+  {
+    "question": "Phân tích đóng góp của các cuộc khởi nghĩa trong thời kỳ Bắc thuộc đến công cuộc giành lại độc lập của người Việt.",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Các cuộc khởi nghĩa trong thời kỳ Bắc thuộc đã có những đặc điểm gì nổi bật?",
+      "Câu hỏi đơn giản 2: Khởi nghĩa nào đã có tác động lớn nhất đến công cuộc giành lại độc lập?"
+    ]
+  },
+  {
+    "question": "So sánh điều kiện kinh tế xã hội của các thời kỳ Bắc thuộc khác nhau.",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Kinh tế xã hội Việt Nam dưới thời Bắc thuộc lần thứ nhất phát triển ra sao?",
+      "Câu hỏi đơn giản 2: Kinh tế xã hội thời Bắc thuộc lần thứ hai có những đặc điểm gì?",
+      "Câu hỏi đơn giản 3: Thời kỳ Bắc thuộc lần thứ ba, điều kiện kinh tế xã hội đã có những thay đổi nào?"
+    ]
+  },
+  {
+    "question": "Phân tích vai trò của các nhân vật lịch sử tiêu biểu trong các cuộc khởi nghĩa chống Bắc thuộc.",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Hai Bà Trưng đã lãnh đạo cuộc khởi nghĩa chống Bắc thuộc như thế nào?",
+      "Câu hỏi đơn giản 2: Lý Bí có những đóng góp gì trong cuộc giành lại độc lập?",
+      "Câu hỏi đơn giản 3: Ngô Quyền đã thắng lợi trong trận đánh nào để khẳng định chủ quyền?"
+    ]
+  },
+  {
+    "question": "So sánh chính sách đồng hóa văn hóa của các triều đại phương Bắc trong thời kỳ Bắc thuộc.",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Triều đại nào của phương Bắc áp dụng chính sách đồng hóa văn hóa mạnh nhất?",
+      "Câu hỏi đơn giản 2: Các biện pháp đồng hóa cụ thể mà người Trung Hoa đã sử dụng là gì?"
+    ]
+  },
+  {
+    "question": "Phân tích sự phát triển của tôn giáo và tín ngưỡng trong thời kỳ Bắc thuộc.",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Tôn giáo nào đã có bước phát triển rõ rệt trong thời kỳ Bắc thuộc?",
+      "Câu hỏi đơn giản 2: Tín ngưỡng dân gian của người Việt vẫn duy trì như thế nào trong bối cảnh Bắc thuộc?"
+    ]
+  },
+  {
+    "question": "So sánh chiến thuật quân sự của Việt Nam và các triều đại Bắc thuộc.",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Quân đội Việt Nam đã phát triển ra sao để chống lại phương Bắc?",
+      "Câu hỏi đơn giản 2: Các chiến thuật quân sự của triều đại phương Bắc thường sử dụng là gì?"
+    ]
+  },
+  {
+    "question": "Phân tích sự ảnh hưởng của Bắc thuộc đến hệ thống pháp luật và hành chính.",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Hệ thống pháp luật của Việt Nam đã thay đổi ra sao dưới sự đô hộ của phương Bắc?",
+      "Câu hỏi đơn giản 2: Sự cai trị của phương Bắc đã ảnh hưởng như thế nào đến hành chính địa phương?"
+    ]
+  },
+  {
+    "question": "So sánh đời sống người dân Việt Nam trước và sau các cuộc khởi nghĩa thành công.",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Cuộc sống của người Việt dưới sự cai trị Bắc thuộc có đặc điểm gì?",
+      "Câu hỏi đơn giản 2: Sau khi khởi nghĩa giành lại độc lập, đời sống người dân đã thay đổi như thế nào?"
+    ]
+  },
+  {
+    "question": "Phân tích nguyên nhân và hệ quả của sự phát triển giáo dục trong thời kỳ Bắc thuộc.",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Nguyên nhân nào dẫn đến việc phát triển giáo dục trong thời kỳ Bắc thuộc?",
+      "Câu hỏi đơn giản 2: Hệ quả của giáo dục đã tác động ra sao đến xã hội và văn hóa Việt Nam?"
+    ]
+  },
+  {
+    "question": "So sánh tình hình chính trị và xã hội dưới thời nhà Đinh và nhà Tiền Lê.",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Tình hình chính trị dưới triều đại nhà Đinh như thế nào?",
+      "Câu hỏi đơn giản 2: Tình hình xã hội dưới nhà Đinh có những điểm nổi bật gì?",
+      "Câu hỏi đơn giản 3: Nhà Tiền Lê đã xây dựng chính trị như thế nào?",
+      "Câu hỏi đơn giản 4: Xã hội dưới thời nhà Tiền Lê có đặc trưng gì?"
+    ]
+  },
+  {
+    "question": "So sánh văn hóa đại diện của 3 triều đại Lý, Trần, và Lê sơ.",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Văn hóa thời Lý có những nét đặc trưng gì?",
+      "Câu hỏi đơn giản 2: Thời Trần có những đóng góp văn hóa nào đáng kể?",
+      "Câu hỏi đơn giản 3: Đặc điểm văn hóa dưới thời Lê sơ là gì?"
+    ]
+  },
+  {
+    "question": "Phân tích sự phát triển kinh tế của các vương triều Đinh, Lý, và Trần.",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Đặc điểm kinh tế dưới triều Đinh phát triển ra sao?",
+      "Câu hỏi đơn giản 2: Kinh tế dưới thời Lý có những bước tiến nào?",
+      "Câu hỏi đơn giản 3: Thời Trần, kinh tế Việt Nam đã phát triển như thế nào?"
+    ]
+  },
+  {
+    "question": "So sánh việc phân chia cấp bậc quan lại dưới triều Lý và Nguyễn.",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Hệ thống cấp bậc quan lại dưới thời Lý được thiết lập như thế nào?",
+      "Câu hỏi đơn giản 2: Triều Nguyễn đã tổ chức cấp bậc quan lại ra sao?",
+      "Câu hỏi đơn giản 3: Những điểm khác biệt giữa hai triều đại trong việc quản lý quan lại?"
+    ]
+  },
+  {
+    "question": "Phân tích ảnh hưởng của Nho giáo và Phật giáo trong thời kỳ nhà Lý và Trần.",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Nho giáo thời nhà Lý đã ảnh hưởng thế nào đến chính trị và xã hội?",
+      "Câu hỏi đơn giản 2: Phật giáo dưới triều Lý có vị thế và ảnh hưởng ra sao?",
+      "Câu hỏi đơn giản 3: Thời Trần, Nho giáo đã phát triển như thế nào trong xã hội?",
+      "Câu hỏi đơn giản 4: Phật giáo thời Trần có những đóng góp gì trong đời sống văn hóa?"
+    ]
+  },
+  {
+    "question": "So sánh sự phát triển quân sự của triều đại Ngô, Đinh, và Tiền Lê.",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Quân sự dưới triều Ngô được phát triển như thế nào?",
+      "Câu hỏi đơn giản 2: Nhà Đinh đã xây dựng lực lượng quân sự ra sao?",
+      "Câu hỏi đơn giản 3: Sự cải tiến quân sự dưới nhà Tiền Lê có những gì nổi bật?"
+    ]
+  },
+  {
+    "question": "Phân tích sự tiến bộ trong giáo dục dưới các triều đại Lý và Trần.",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Giáo dục dưới triều đại Lý đã có những tiến bộ gì?",
+      "Câu hỏi đơn giản 2: Triều Trần đã có những cải cách nào trong hệ thống giáo dục?"
+    ]
+  },
+  {
+    "question": "So sánh phong cách nghệ thuật kiến trúc của nhà Đinh, Tiền Lê, và Lý.",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Kiến trúc thời nhà Đinh có những đặc trưng gì?",
+      "Câu hỏi đơn giản 2: Nhà Tiền Lê đã để lại dấu ấn kiến trúc nào?",
+      "Câu hỏi đơn giản 3: Nghệ thuật kiến trúc thời Lý thể hiện qua những công trình tiêu biểu nào?"
+    ]
+  },
+  {
+    "question": "Phân tích vai trò của thủy lợi trong sản xuất nông nghiệp từ thời Lê sơ đến triều Nguyễn.",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Hệ thống thủy lợi dưới thời Lê sơ được phát triển như thế nào?",
+      "Câu hỏi đơn giản 2: Vai trò của thủy lợi trong nông nghiệp triều Nguyễn là gì?"
+    ]
+  },
+  {
+    "question": "So sánh đặc điểm tổ chức quân đội dưới thời Lý và Trần.",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Cách tổ chức quân đội thời Lý như thế nào?",
+      "Câu hỏi đơn giản 2: Quân đội dưới triều Trần có những đặc điểm gì nổi bật?"
+    ]
+  },
+  {
+    "question": "Phân tích ảnh hưởng của thương mại đối với kinh tế thời Trần và Lê sơ.",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Thương mại đã ảnh hưởng thế nào đến kinh tế dưới triều Trần?",
+      "Câu hỏi đơn giản 2: Sự phát triển thương mại thời Lê sơ có đặc điểm gì?"
+    ]
+  },
+  {
+    "question": "So sánh hệ thống luật pháp dưới các triều đại Đinh, Tiền Lê và Lý.",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Hệ thống luật pháp dưới triều Đinh như thế nào?",
+      "Câu hỏi đơn giản 2: Nhà Tiền Lê đã ban hành những luật gì?",
+      "Câu hỏi đơn giản 3: Luật pháp dưới thời Lý có những đặc điểm gì?"
+    ]
+  },
+  {
+    "question": "Phân tích vai trò của các kỳ thi khoa cử trong tuyển chọn quan lại dưới triều Trần và Lê sơ.",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Hệ thống khoa cử dưới thời Trần được tổ chức ra sao?",
+      "Câu hỏi đơn giản 2: Triều Lê sơ đã thực hiện kỳ thi khoa cử thế nào để tuyển chọn quan lại?"
+    ]
+  },
+  {
+    "question": "So sánh sự khác biệt trong quản lý ruộng đất giữa các triều Đinh, Tiền Lê và Trần.",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Chính sách quản lý ruộng đất dưới triều Đinh có đặc điểm gì?",
+      "Câu hỏi đơn giản 2: Nhà Tiền Lê đã thực hiện quản lý ruộng đất ra sao?",
+      "Câu hỏi đơn giản 3: Thời Trần có những thay đổi gì trong quản lý ruộng đất?"
+    ]
+  },
+  {
+    "question": "Phân tích vai trò và quyền lực của Hoàng hậu trong triều đình Đinh và Lý.",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Hoàng hậu dưới triều Đinh có vai trò và quyền lực như thế nào?",
+      "Câu hỏi đơn giản 2: Ảnh hưởng của Hoàng hậu trong triều đình Lý ra sao?"
+    ]
+  },
+  {
+    "question": "So sánh tình hình đối ngoại của Việt Nam dưới triều Trần và Lê sơ.",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Triều Trần đã xây dựng chính sách đối ngoại như thế nào?",
+      "Câu hỏi đơn giản 2: Đối ngoại thời Lê sơ có những sự kiện đáng chú ý nào?"
+    ]
+  },
+  {
+    "question": "Phân tích hệ thống truyền tin từ thời Lý đến thời Trần.",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Hệ thống truyền tin dưới triều đại Lý được thiết lập ra sao?",
+      "Câu hỏi đơn giản 2: Sự cải tiến hệ thống truyền tin thời Trần có những điểm gì nổi bật?"
+    ]
+  },
+  {
+    "question": "So sánh các cuộc nội chiến trong thời kỳ Lý, Trần và Lê sơ.",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Những cuộc nội chiến dưới triều Lý diễn ra như thế nào?",
+      "Câu hỏi đơn giản 2: Triều Trần đã trải qua các cuộc nội chiến nào?",
+      "Câu hỏi đơn giản 3: Thời Lê sơ có những cuộc nội chiến ra sao?"
+    ]
+  },
+  {
+    "question": "Phân tích sự phát triển và suy yếu của triều đại Đinh và Tiền Lê.",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Triều đại Đinh đã phát triển như thế nào từ khi thành lập?",
+      "Câu hỏi đơn giản 2: Nguyên nhân dẫn đến suy yếu của triều Đinh là gì?",
+      "Câu hỏi đơn giản 3: Nhà Tiền Lê phát triển ra sao dưới các vị vua đầu tiên?",
+      "Câu hỏi đơn giản 4: Những yếu tố nào dẫn đến sự suy yếu của triều Tiền Lê?"
+    ]
+  },
+  {
+    "question": "Phân tích vai trò của các nhân vật lịch sử quan trọng trong cuộc kháng chiến chống Pháp thế kỷ 19.",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Nguyễn Tri Phương đã ảnh hưởng như thế nào đến chiến lược kháng chiến?",
+      "Câu hỏi đơn giản 2: Trương Định có vai trò gì trong các cuộc khởi nghĩa chống Pháp?",
+      "Câu hỏi đơn giản 3: Phan Đình Phùng đã làm gì để thúc đẩy kháng chiến?"
+    ]
+  },
+  {
+    "question": "So sánh các phong trào đấu tranh cận đại của nhân dân mang tính giải phóng dân tộc.",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Phong trào Cần Vương đã diễn ra như thế nào và có kết quả gì?",
+      "Câu hỏi đơn giản 2: Những điểm nổi bật của phong trào Đông Du là gì?",
+      "Câu hỏi đơn giản 3: Khởi nghĩa Yên Thế có đặc điểm gì so với các phong trào khác?"
+    ]
+  },
+  {
+    "question": "Phân tích tác động của Hiệp ước Nhâm Tuất (1862) và Hiệp ước Harmand (1883) đối với nước Việt Nam.",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Hiệp ước Nhâm Tuất 1862 đã ảnh hưởng như thế nào đến Việt Nam về mặt lãnh thổ?",
+      "Câu hỏi đơn giản 2: Nội dung chính của Hiệp ước Harmand là gì, và nó tác động thế nào đến tình hình chính trị Việt Nam?"
+    ]
+  },
+  {
+    "question": "So sánh chiến thuật quân sự của Pháp và quân đội Việt Nam trong trận Điện Biên Phủ.",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Pháp đã áp dụng những chiến thuật nào tại Điện Biên Phủ?",
+      "Câu hỏi đơn giản 2: Quân đội Việt Nam đã chuẩn bị và thực hiện chiến thuật như thế nào?"
+    ]
+  },
+  {
+    "question": "Phân tích ảnh hưởng của các quốc gia thế lực lớn đối với tình hình ở Đông Dương trong cuộc kháng chiến chống Pháp.",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Pháp tìm kiếm sự hỗ trợ và liên minh quốc tế như thế nào?",
+      "Câu hỏi đơn giản 2: Liên Xô và Trung Quốc có ảnh hưởng thế nào đối với vận mệnh Đông Dương?",
+      "Câu hỏi đơn giản 3: Vai trò của Mỹ trong bối cảnh chiến tranh Đông Dương ra sao?"
+    ]
+  },
+  {
+    "question": "Hãy thảo luận về trách nhiệm của Pháp và Nhật trong việc chiếm đóng Việt Nam.",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Pháp đã thực hiện chính sách chiếm đóng và tác động như thế nào đến Việt Nam?",
+      "Câu hỏi đơn giản 2: Nhật Bản đóng vai trò gì trong việc quản lý Việt Nam trong Thế chiến II?"
+    ]
+  },
+  {
+    "question": "Đánh giá ảnh hưởng của văn hóa phương Tây và Hán học trong xã hội Việt Nam dưới chính sách khai thác thuộc địa của Pháp.",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Pháp đã đưa những yếu tố văn hóa nào từ phương Tây vào Việt Nam?",
+      "Câu hỏi đơn giản 2: Hán học duy trì và phát triển như thế nào dưới ách thuộc địa?"
+    ]
+  },
+  {
+    "question": "Phân tích sự biến đổi xã hội của Việt Nam trong kháng chiến chống Pháp từ thế kỷ 19 đến 1954.",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Những thay đổi về cơ cấu tầng lớp xã hội dưới sự cai trị của Pháp là gì?",
+      "Câu hỏi đơn giản 2: Người dân thường có sự chuyển biến như thế nào trong lòng xã hội thời kỳ này?"
+    ]
+  },
+  {
+    "question": "So sánh sự khác nhau giữa chính sách khai thác thuộc địa lần thứ nhất và thứ hai của Pháp.",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Chính sách khai thác thuộc địa lần thứ nhất của Pháp có những đặc điểm gì?",
+      "Câu hỏi đơn giản 2: Chính sách khai thác thuộc địa lần thứ hai khác biệt ra sao?"
+    ]
+  },
+  {
+    "question": "Phân tích tác động của các phong trào quần chúng trong việc thúc đẩy kháng chiến chống Pháp.",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Phong trào quần chúng nào đã tạo ảnh hưởng mạnh mẽ trong cuộc chiến chống Pháp?",
+      "Câu hỏi đơn giản 2: Tác động cụ thể của các phong trào này đến tâm lý và chiến lược kháng chiến là gì?"
+    ]
+  },
+  {
+    "question": "Đánh giá sự lãnh đạo của các tổ chức chính trị trong cuộc kháng chiến chống Pháp.",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Đảng Cộng sản Đông Dương có những quyết sách quan trọng nào trong thời kỳ này?",
+      "Câu hỏi đơn giản 2: Vai trò của Việt Nam Quốc dân Đảng trong cuộc kháng chiến là gì?"
+    ]
+  },
+  {
+    "question": "Phân tích những nguyên nhân dẫn đến chiến thắng của Việt Nam tại Điện Biên Phủ.",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Những điều kiện thuận lợi nào đã giúp quân đội Việt Nam chiến thắng tại Điện Biên Phủ?",
+      "Câu hỏi đơn giản 2: Sai lầm của chiến lược quân sự Pháp trong chiến dịch này là gì?"
+    ]
+  },
+  {
+    "question": "Hãy so sánh vai trò của các vị tướng nổi tiếng trong kháng chiến chống Pháp.",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Võ Nguyên Giáp đóng vai trò gì trong cuộc chiến tranh chống Pháp?",
+      "Câu hỏi đơn giản 2: Tướng Pháo binh nào đã có ảnh hưởng lớn trong các trận đánh lớn?"
+    ]
+  },
+  {
+    "question": "Phân tích các giai đoạn chính của cuộc kháng chiến chống Pháp từ năm 1858 đến 1954.",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Giai đoạn đầu của cuộc kháng chiến có những sự kiện quan trọng nào từ 1858 đến 1884?",
+      "Câu hỏi đơn giản 2: Những thay đổi gì đã xảy ra trong giai đoạn kháng chiến từ 1885 đến 1945?",
+      "Câu hỏi đơn giản 3: Giai đoạn cuối cùng của cuộc kháng chiến từ 1946 đến 1954 có đặc điểm gì?"
+    ]
+  },
+  {
+    "question": "So sánh các bản hiệp định và quyết định quốc tế liên quan đến cuộc kháng chiến chống Pháp.",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Hiệp định Genève 1954 có nội dung gì quan trọng đối với Việt Nam?",
+      "Câu hỏi đơn giản 2: Hòa ước Giáp Tuất đã ra quyết định gì ảnh hưởng đến tình hình quốc tế và nội bộ Việt Nam?"
+    ]
+  },
+  {
+    "question": "Phân tích vai trò của nông thôn và đô thị trong cuộc kháng chiến chống Pháp.",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Nông thôn Việt Nam đã đóng góp thế nào vào kháng chiến?",
+      "Câu hỏi đơn giản 2: Đô thị ảnh hưởng đến cuộc chiến ra sao?"
+    ]
+  },
+  {
+    "question": "Thảo luận về tác động của chính sách giáo dục và y tế của Pháp tới xã hội Việt Nam trong kháng chiến.",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Chính sách giáo dục của Pháp đã thay đổi xã hội Việt Nam như thế nào?",
+      "Câu hỏi đơn giản 2: Cải tổ y tế của Pháp có ảnh hưởng gì đến đời sống người dân?"
+    ]
+  },
+  {
+    "question": "So sánh đối sách của triều đình nhà Nguyễn và các nhóm nghĩa quân đối với sự xâm lược của Pháp.",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Triều đình nhà Nguyễn đã lựa chọn phương án gì để đối phó với Pháp?",
+      "Câu hỏi đơn giản 2: Các nhóm nghĩa quân có chiến lược khác gì so với triều đình?"
+    ]
+  },
+  {
+    "question": "Phân tích lý do thất bại của các phong trào kháng chiến trong giai đoạn đầu chống Pháp.",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Nguyên nhân chủ quan dẫn tới thất bại của phong trào Cần Vương là gì?",
+      "Câu hỏi đơn giản 2: Những thách thức khách quan nào đã ngăn cản sự thành công của các cuộc kháng chiến?"
+    ]
+  },
+  {
+    "question": "Thảo luận ảnh hưởng của các tôn giáo nổi bật trong cuộc kháng chiến chống Pháp.",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Công giáo có vai trò gì trong cuộc sống của người dân trong kháng chiến?",
+      "Câu hỏi đơn giản 2: Phật giáo đã đóng góp như thế nào vào phong trào đấu tranh giải phóng?"
+    ]
+  },
+  {
+    "question": "Phân tích các thành phần tham gia trong cuộc Tổng tấn công và nổi dậy Tết Mậu Thân 1968.",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Quân Giải phóng miền Nam Việt Nam có vai trò gì trong cuộc Tổng tấn công Tết Mậu Thân 1968?",
+      "Câu hỏi đơn giản 2: Vai trò của nhân dân miền Nam trong Tết Mậu Thân 1968 là gì?",
+      "Câu hỏi đơn giản 3: Các nhân tố quốc tế đã tác động như thế nào đến cuộc Tổng tấn công và nổi dậy này?"
+    ]
+  },
+  {
+    "question": "So sánh phương thức chiến đấu của Quân đội Nhân dân Việt Nam và quân đội Mỹ trong chiến tranh Việt Nam.",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Quân đội Nhân dân Việt Nam đã sử dụng những chiến thuật chiến đấu nào trong cuộc chiến chống Mỹ?",
+      "Câu hỏi đơn giản 2: Phương thức chiến đấu của quân đội Mỹ tại Việt Nam có những điểm gì đặc biệt và khác biệt?",
+      "Câu hỏi đơn giản 3: So sánh hiệu quả giữa các chiến thuật của hai bên trong chiến tranh Việt Nam."
+    ]
+  },
+  {
+    "question": "Đánh giá vai trò của báo chí và truyền thông quốc tế đối với phong trào phản đối chiến tranh Việt Nam tại Mỹ.",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Báo chí quốc tế đã có những tác động gì đến nhận thức của người dân Mỹ về chiến tranh Việt Nam?",
+      "Câu hỏi đơn giản 2: Truyền thông đã hỗ trợ như thế nào cho phong trào phản đối chiến tranh tại Mỹ?",
+      "Câu hỏi đơn giản 3: Phản ứng của chính quyền Mỹ đối với các phong trào phản chiến được báo chí đưa tin là gì?"
+    ]
+  },
+  {
+    "question": "Phân tích sự tham gia của các bên trong Hiệp định Paris 1973 và hậu quả của nó.",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Chính phủ Việt Nam Dân chủ Cộng hòa đã tham gia Hiệp định Paris 1973 như thế nào?",
+      "Câu hỏi đơn giản 2: Vai trò và ảnh hưởng của Chính phủ Cộng hòa Miền Nam Việt Nam trong Hiệp định Paris là gì?",
+      "Câu hỏi đơn giản 3: Mỹ tham gia đàm phán Paris 1973 với mục tiêu gì và kết quả như thế nào?",
+      "Câu hỏi đơn giản 4: Những hậu quả về chính trị và quân sự của Hiệp định Paris đối với các bên tham gia là gì?"
+    ]
+  },
+  {
+    "question": "Phân tích chiến lược quân sự của Việt Nam trong Chiến dịch Hồ Chí Minh 1975.",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Việt Nam đã chuẩn bị những gì về mặt quân sự cho Chiến dịch Hồ Chí Minh 1975?",
+      "Câu hỏi đơn giản 2: Những chiến thuật cụ thể nào đã được áp dụng trong Chiến dịch Hồ Chí Minh?",
+      "Câu hỏi đơn giản 3: Kết quả của Chiến dịch Hồ Chí Minh đối với việc thống nhất đất nước là gì?"
+    ]
+  },
+  {
+    "question": "So sánh chiến lược chiến tranh của Mỹ qua các đời Tổng thống từ Eisenhower đến Nixon.",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Dưới thời Tổng thống Eisenhower, Mỹ đã có những chiến lược nào đối với Việt Nam?",
+      "Câu hỏi đơn giản 2: Tổng thống Kennedy đã thay đổi chiến lược chiến tranh Việt Nam ra sao?",
+      "Câu hỏi đơn giản 3: Chiến lược của Tổng thống Johnson trong chiến tranh Việt Nam có những đặc điểm gì?",
+      "Câu hỏi đơn giản 4: Tổng thống Nixon đã áp dụng chiến lược quân sự nào để chuyển giao chiến tranh ở Việt Nam?"
+    ]
+  },
+  {
+    "question": "Đánh giá tác động của Dự án Ho Chi Minh Trail đối với cuộc chiến chống Mỹ.",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Dự án Ho Chi Minh Trail được thực hiện như thế nào trong kháng chiến chống Mỹ?",
+      "Câu hỏi đơn giản 2: Vai trò của Ho Chi Minh Trail trong việc cung ứng quân sự cho quân đội miền Nam Việt Nam?",
+      "Câu hỏi đơn giản 3: Phản ứng của Mỹ đối với Ho Chi Minh Trail và những biện pháp nào đã được áp dụng để ngăn chặn nó?"
+    ]
+  },
+  {
+    "question": "Phân tích sự khác biệt giữa phong trào đấu tranh vũ trang và phong trào đấu tranh ngoại giao của Việt Nam trong thời kỳ kháng chiến chống Mỹ.",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Phong trào đấu tranh vũ trang của Việt Nam trong kháng chiến chống Mỹ diễn ra như thế nào?",
+      "Câu hỏi đơn giản 2: Công cuộc đấu tranh ngoại giao của Việt Nam trong thời kỳ này có những đặc điểm gì nổi bật?",
+      "Câu hỏi đơn giản 3: Sự phối hợp giữa đấu tranh vũ trang và ngoại giao đem lại kết quả gì cho Việt Nam?"
+    ]
+  },
+  {
+    "question": "So sánh mục tiêu chiến tranh giữa miền Bắc và miền Nam Việt Nam từ 1954 đến 1975.",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Miền Bắc Việt Nam có những mục tiêu gì trong cuộc chiến từ 1954-1975?",
+      "Câu hỏi đơn giản 2: Mục tiêu của chính quyền miền Nam Việt Nam trong cùng khoảng thời gian là gì?",
+      "Câu hỏi đơn giản 3: Những sự kiện nào thể hiện sự khác biệt hoặc tương đồng giữa các mục tiêu đó?"
+    ]
+  },
+  {
+    "question": "Phân tích tác động của các cuộc biểu tình chống chiến tranh trên thế giới đối với quyết định của Mỹ rút quân khỏi Việt Nam.",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Phong trào biểu tình chống chiến tranh trên thế giới đã diễn ra như thế nào?",
+      "Câu hỏi đơn giản 2: Tác động của các cuộc biểu tình này đến chính sách đối ngoại của chính quyền Mỹ?",
+      "Câu hỏi đơn giản 3: Mỹ đã có những phản ứng và điều chỉnh chiến lược gì khi đối mặt với làn sóng chống chiến tranh toàn cầu?"
+    ]
+  },
+  {
+    "question": "Đánh giá ảnh hưởng của Đổi Mới (1986) đến chính trị, kinh tế và xã hội Việt Nam.",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Đổi Mới đã tác động như thế nào đến hệ thống chính trị Việt Nam?",
+      "Câu hỏi đơn giản 2: Kinh tế Việt Nam đã trải qua những thay đổi gì kể từ khi thực hiện Đổi Mới?",
+      "Câu hỏi đơn giản 3: Xã hội Việt Nam có những biến chuyển nào quan trọng sau Đổi Mới?"
+    ]
+  },
+  {
+    "question": "So sánh các chính sách ngoại giao của Việt Nam qua ba thời kỳ: thời kỳ chống Pháp, chống Mỹ và sau Đổi Mới.",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Chính sách ngoại giao của Việt Nam trong thời kỳ chống Pháp được thực hiện ra sao?",
+      "Câu hỏi đơn giản 2: Trong cuộc chiến chống Mỹ, Việt Nam đã có chiến lược ngoại giao nào nổi bật?",
+      "Câu hỏi đơn giản 3: Sau Đổi Mới, Việt Nam đã thay đổi gì trong chính sách ngoại giao?"
+    ]
+  },
+  {
+    "question": "Phân tích vai trò của các tổ chức quần chúng trong cuộc chiến tranh Việt Nam từ 1945 đến 1975.",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Các tổ chức quần chúng đã tham gia kháng chiến chống Pháp như thế nào từ 1945–1954?",
+      "Câu hỏi đơn giản 2: Trong cuộc chiến chống Mỹ, các tổ chức quần chúng đã có vai trò gì nổi bật từ 1955–1975?"
+    ]
+  },
+  {
+    "question": "So sánh cách thức quản lý kinh tế của Việt Nam qua các thời kỳ Lê, Nguyễn và hiện nay.",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Triều Lê đã quản lý kinh tế của quốc gia thế nào?",
+      "Câu hỏi đơn giản 2: Trong thời Nguyễn, cách thức quản lý kinh tế có gì khác biệt?",
+      "Câu hỏi đơn giản 3: Quá trình quản lý kinh tế của Việt Nam hiện nay có điểm gì đặc trưng?"
+    ]
+  },
+  {
+    "question": "Phân tích sự phát triển của hệ thống giáo dục Việt Nam từ 1945 đến nay, qua các thời kỳ chính trị khác nhau.",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Sau Cách mạng tháng Tám 1945, hệ thống giáo dục ở Việt Nam đã được cải cách như thế nào?",
+      "Câu hỏi đơn giản 2: Trong suốt cuộc chiến chống Mỹ, giáo dục ở Việt Nam có những đặc điểm gì nổi bật?",
+      "Câu hỏi đơn giản 3: Từ khi thực hiện Đổi Mới 1986, hệ thống giáo dục ở Việt Nam phát triển ra sao?"
+    ]
+  },
+  {
+    "question": "So sánh vai trò của lãnh đạo Hồ Chí Minh và Võ Nguyên Giáp trong các cuộc kháng chiến chống Pháp và chống Mỹ.",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Vai trò của Hồ Chí Minh đối với cuộc kháng chiến chống Pháp là gì?",
+      "Câu hỏi đơn giản 2: Võ Nguyên Giáp đã đóng góp như thế nào trong cuộc chiến đấu chống Pháp?",
+      "Câu hỏi đơn giản 3: Trong cuộc kháng chiến chống Mỹ, Hồ Chí Minh có vai trò gì nổi bật?",
+      "Câu hỏi đơn giản 4: Tướng Võ Nguyên Giáp đã tham gia chỉ huy và có ảnh hưởng gì trong cuộc chiến chống Mỹ?"
+    ]
+  },
+  {
+    "question": "Phân tích sự phát triển và ảnh hưởng của truyền thông ở Việt Nam từ sau Đổi Mới đến nay.",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Truyền thông Việt Nam sau năm 1986 đã có những bước tiến trọng điểm nào?",
+      "Câu hỏi đơn giản 2: Ảnh hưởng của truyền thông đối với xã hội Việt Nam hiện đại là gì?"
+    ]
+  },
+  {
+    "question": "So sánh sự phát triển của ngành nông nghiệp và ngành công nghiệp ở Việt Nam từ 1975 đến nay.",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Ngành nông nghiệp Việt Nam từ 1975 đã trải qua những giai đoạn phát triển nào?",
+      "Câu hỏi đơn giản 2: Đặc điểm phát triển của ngành công nghiệp Việt Nam từ 1975 đến nay ra sao?"
+    ]
+  },
+  {
+    "question": "Phân tích ảnh hưởng của sự kiện Chiến tranh Biên giới phía Bắc 1979 đến chính trị, ngoại giao Việt Nam.",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Chiến tranh Biên giới phía Bắc 1979 tác động như thế nào đến chính trị Việt Nam?",
+      "Câu hỏi đơn giản 2: Sự kiện này đã ảnh hưởng gì đến ngoại giao và quan hệ quốc tế của Việt Nam?"
+    ]
+  },
+  {
+    "question": "Đánh giá vai trò của các tổ chức quốc tế như ASEAN, WTO trong công cuộc phát triển kinh tế, chính trị Việt Nam sau Đổi Mới.",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Việt Nam đã đạt được những gì khi tham gia vào ASEAN từ góc độ chính trị?",
+      "Câu hỏi đơn giản 2: Từ khi trở thành thành viên của WTO, kinh tế Việt Nam đã có những thay đổi gì?",
+      "Câu hỏi đơn giản 3: Vai trò của các tổ chức quốc tế khác trong quá trình phát triển chính trị và kinh tế Việt Nam là gì?"
+    ]
+  },
+  {
+    "question": "Phân tích sự phát triển của nghệ thuật và văn hóa Việt Nam từ sau Đổi Mới 1986 đến nay.",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Ngành nghệ thuật ở Việt Nam đã phát triển thế nào sau Đổi Mới?",
+      "Câu hỏi đơn giản 2: Những xu hướng văn hóa mới nào đã xuất hiện và lan tỏa tại Việt Nam sau năm 1986?"
+    ]
+  },
+  {
+    "question": "So sánh tác động của cải cách kinh tế ở Việt Nam và Trung Quốc từ thập kỷ 80 thế kỷ 20.",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Việt Nam đã trải qua cải cách kinh tế như thế nào kể từ thập kỷ 80?",
+      "Câu hỏi đơn giản 2: Quá trình cải cách kinh tế của Trung Quốc trong giai đoạn này có điểm gì nổi bật?",
+      "Câu hỏi đơn giản 3: Điểm giống và khác biệt giữa hai quốc gia là gì trong cải cách kinh tế?"
+    ]
+  },
+  {
+    "question": "Phân tích vai trò của các tài liệu mật ghi chép về kháng chiến chống Mỹ trong việc nghiên cứu lịch sử hiện đại Việt Nam.",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Các tài liệu mật về chiến tranh Việt Nam đã cung cấp những thông tin đáng chú ý gì?",
+      "Câu hỏi đơn giản 2: Vai trò của tài liệu này đối với công tác nghiên cứu lịch sử hiện đại của Việt Nam là gì?"
+    ]
+  },
+  {
+    "question": "Đánh giá sự thay đổi trong quan niệm về chủ quyền biển đảo của Việt Nam từ 1945 đến nay.",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Quan niệm và chính sách về chủ quyền biển đảo của Việt Nam đã được thể hiện như thế nào trong giai đoạn 1945–1975?",
+      "Câu hỏi đơn giản 2: Sau Đổi Mới, quan điểm của Việt Nam về chủ quyền biển đảo có sự thay đổi gì?",
+      "Câu hỏi đơn giản 3: Những biện pháp và hành động nào đã được thực hiện để bảo vệ chủ quyền từ 1975 đến nay?"
+    ]
+  },
+  {
+    "question": "So sánh tác động của chiến tranh Việt Nam và Chiến tranh Lạnh đến nền kinh tế và xã hội Việt Nam.",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Cuộc chiến tranh Việt Nam đã ảnh hưởng gì đến kinh tế của đất nước?",
+      "Câu hỏi đơn giản 2: Tác động của Chiến tranh Lạnh đối với xã hội Việt Nam là gì?",
+      "Câu hỏi đơn giản 3: Điểm tương đồng và khác biệt giữa hai thời kỳ xung đột này là gì?"
+    ]
+  },
+  {
+    "question": "Phân tích vai trò của phụ nữ trong kháng chiến và quá trình tái thiết đất nước sau 1975.",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Phụ nữ đã tham gia kháng chiến chống Mỹ và xây dựng đất nước như thế nào?",
+      "Câu hỏi đơn giản 2: Vai trò của phụ nữ trong quá trình tái thiết và phát triển Việt Nam hiện nay có điểm gì nổi bật?"
+    ]
+  },
+  {
+    "question": "So sánh quá trình phát triển của hệ thống giao thông ở Việt Nam từ thời kỳ thuộc địa đến hiện đại.",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Dưới thời thuộc địa, hệ thống giao thông ở Việt Nam được xây dựng ra sao?",
+      "Câu hỏi đơn giản 2: Sau khi giành lại độc lập, hệ thống giao thông Việt Nam đã trải qua những thay đổi nào?",
+      "Câu hỏi đơn giản 3: Hiện nay, quá trình phát triển cơ sở hạ tầng giao thông tại Việt Nam có điều gì đáng chú ý?"
+    ]
+  },
+  {
+    "question": "Đánh giá ảnh hưởng của các phong trào xã hội nước ngoài đến sự phát triển của phong trào dân chủ Việt Nam sau 1975.",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Các phong trào xã hội trên thế giới đã có tác động như thế nào đến phong trào dân chủ của Việt Nam?",
+      "Câu hỏi đơn giản 2: Phong trào dân chủ ở Việt Nam từ 1975 đến nay đã có những bước tiến gì đáng ghi nhận?"
+    ]
+  },
+  {
+    "question": "Phân tích sự phát triển của sự nghiệp y tế và chăm sóc sức khỏe ở Việt Nam từ năm 1975.",
+    "subquestions": [
+      "Câu hỏi đơn giản 1: Sau chiến tranh, hệ thống y tế ở Việt Nam đã được xây dựng và phát triển như thế nào?",
+      "Câu hỏi đơn giản 2: Chăm sóc sức khỏe cho người dân tại Việt Nam hiện nay có đặc điểm gì nổi bật?"
+    ]
+  }
+]
